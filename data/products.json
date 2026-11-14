@@ -1,0 +1,1585 @@
+{
+ "checked": "14 November 2026",
+ "tables": {
+  "starter-packages": {
+   "columns": [
+    "Shop",
+    "Package",
+    "Price",
+    "What's included"
+   ],
+   "rows": [
+    [
+     {
+      "text": "Quicks Archery"
+     },
+     {
+      "text": "Core Arios Ext riser + Kinetic Engage limbs bow set",
+      "url": "https://www.quicksarchery.co.uk/bows/archery-bow-sets/core-arios-engage-bowset-en"
+     },
+     {
+      "text": "£429.68",
+      "note": "(was £477.42)"
+     },
+     "The most complete starter package found: 25\" riser, wood limbs, string, rest, sight, Avalon Tec One button, long rod, side rods and V-bar, tab, armguard, quiver, stringer, stand, backpack and 8 Easton Jazz arrows"
+    ],
+    [
+     {
+      "text": "Clickers Archery"
+     },
+     {
+      "text": "Clickers Archery Intermediate recurve kit",
+      "url": "https://www.clickersarchery.co.uk/products/clickers-archery-intermediate-recurve-kit/"
+     },
+     {
+      "text": "from £420.85",
+      "note": "(was £443)"
+     },
+     "SF NEO 25\" riser, WNS Delta F2 limbs, string, Hoyt Super Pro rest, WNS SPR-100 sight, long rod, stand, quiver, tab, sling, armguard and backpack. No pressure button or arrows: add about £70–£95"
+    ],
+    [
+     {
+      "text": "Wales Archery"
+     },
+     {
+      "text": "Level Two Kinetic Novius V2 Deluxe",
+      "url": "https://walesarchery.com/products/bow-kit-level-two-kinetic-novius-2-deluxe"
+     },
+     "£459.80",
+     {
+      "text": "Kinetic Novius V2 ILF riser and Soul Everly limbs, plus button, long rod and stand",
+      "note": "(contents from search listing: confirm with the shop)"
+     }
+    ],
+    [
+     {
+      "text": "Wales Archery"
+     },
+     {
+      "text": "Level Two Kinetic Novius V2",
+      "url": "https://walesarchery.com/products/bow-kit-level-two-kinetic-novius-2-riser-soul-limbs"
+     },
+     "£404.37",
+     {
+      "text": "Kinetic Novius V2 ILF riser and Soul limbs",
+      "note": "(confirm contents with the shop)"
+     }
+    ],
+    [
+     {
+      "text": "Merlin Archery"
+     },
+     {
+      "text": "Kinetic Vygo Complete Bow (online only)",
+      "url": "https://www.merlinarchery.co.uk/kinetic-lancer-complete-bow-2.html"
+     },
+     "£179.81–£266.80",
+     "Riser, limbs, string, rest, button and stringer only, with a £25 voucher. Add a sight, arrows and accessories (see Option B)"
+    ]
+   ]
+  },
+  "starter-merlin": {
+   "caption": "Example build at Merlin Archery (accessory prices from the sight down were checked in October 2026)",
+   "columns": [
+    "Part",
+    "Product",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Riser",
+     {
+      "text": "Kinetic Vygo 25\" (ILF)",
+      "url": "https://www.merlinarchery.co.uk/kinetic-vygo-25-recurve-riser.html"
+     },
+     "£149.99"
+    ],
+    [
+     "Limbs",
+     {
+      "text": "Mybo Luna foam core, 16–38 lb",
+      "url": "https://www.merlinarchery.co.uk/mybo-luna-foam-core-recurve-limbs.html"
+     },
+     "£84.00"
+    ],
+    [
+     "String",
+     {
+      "text": "Reign Sovereign, for 68\" bow",
+      "url": "https://www.merlinarchery.co.uk/reign-recurve-string-sovereign-for-68-bow.html"
+     },
+     "£13.94"
+    ],
+    [
+     "Arrow rest",
+     {
+      "text": "WNS SFRF magnetic",
+      "url": "https://www.merlinarchery.co.uk/wns-sfrf-magnetic-rest.html"
+     },
+     "£6.89"
+    ],
+    [
+     "Pressure button",
+     {
+      "text": "Avalon Tyro Standard 32 mm",
+      "url": "https://www.merlinarchery.co.uk/avalon-tyro-standard-button-32mm.html"
+     },
+     "£6.89"
+    ],
+    [
+     "Bow stringer",
+     {
+      "text": "Avalon Bow Stringer",
+      "url": "https://www.merlinarchery.co.uk/avalon-bow-stringer.html"
+     },
+     "£4.99"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Avalon Classic 193, click adjustment",
+      "url": "https://www.merlinarchery.co.uk/avalon-classic-193-recurve-sight.html"
+     },
+     "£39.89"
+    ],
+    [
+     "Long rod",
+     {
+      "text": "Epic Ventus Pro Carbon",
+      "url": "https://www.merlinarchery.co.uk/accessories-for-the-bow/stabilisers-weights-mounts/long-rods.html"
+     },
+     "£45.43"
+    ],
+    [
+     "Arrows",
+     {
+      "text": "8 Easton XX75 Platinum Plus, made to your length",
+      "url": "https://www.merlinarchery.co.uk/arrows/fletched-arrows/competition-arrows/custom-made-arrows-easton-xx75-platinum-plus.html"
+     },
+     "£63.76–£85.52"
+    ],
+    [
+     "Finger tab",
+     {
+      "text": "Avalon Tyro Basic, adjustable ledge",
+      "url": "https://www.merlinarchery.co.uk/avalon-tyro-basic-tab.html"
+     },
+     "£6.95"
+    ],
+    [
+     "Armguard",
+     {
+      "text": "Avalon Tec Carbon",
+      "url": "https://www.merlinarchery.co.uk/avalon-tec-carbon-armguard.html"
+     },
+     "£5.99"
+    ],
+    [
+     "Sling",
+     {
+      "text": "Avalon XHD Bowsling",
+      "url": "https://www.merlinarchery.co.uk/accessories-for-the-archer/other-accessories/finger-slings.html"
+     },
+     "£8.52"
+    ],
+    [
+     "Quiver",
+     {
+      "text": "Shocq Pro Target Quiver",
+      "url": "https://www.merlinarchery.co.uk/shocq-pro-target-quiver.html"
+     },
+     "£19.99"
+    ],
+    [
+     "Bow stand",
+     {
+      "text": "Shocq Quickset",
+      "url": "https://www.merlinarchery.co.uk/shocq-quickset-bow-stand.html"
+     },
+     "£9.89"
+    ],
+    [
+     "Case",
+     {
+      "text": "Akusta Recurve Backpack",
+      "url": "https://www.merlinarchery.co.uk/accessories-for-the-bow/bags-cases/backpacks.html"
+     },
+     "£49.99"
+    ],
+    [
+     "Total",
+     "",
+     "£517.11–£538.87"
+    ]
+   ]
+  },
+  "starter-alternatives": {
+   "columns": [
+    "Part",
+    "Product",
+    "Shop",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Riser",
+     {
+      "text": "Kinetic Vygo 25\" riser",
+      "url": "https://www.clickersarchery.co.uk/products/kinetic-vygo-recurve-riser"
+     },
+     "Clickers",
+     "£165.00"
+    ],
+    [
+     "Riser",
+     {
+      "text": "Kinetic Vygo V2 25\" riser",
+      "url": "https://www.merlinarchery.co.uk/kinetic-vygo-v2-25-recurve-riser.html"
+     },
+     "Merlin",
+     "£199.99"
+    ],
+    [
+     "Limbs",
+     {
+      "text": "Kinetic Honoric V2 carbon/foam ILF limbs",
+      "url": "https://www.chiltern-archery.co.uk/product/kinetic-honoric-carbon-limbs/"
+     },
+     "Chiltern",
+     {
+      "text": "£104.50",
+      "note": "(from search listing: confirm)"
+     }
+    ],
+    [
+     "Sight",
+     {
+      "text": "Avalon Classic Alu recurve sight",
+      "url": "https://www.merlinarchery.co.uk/avalon-classic-alu-recurve-sight.html"
+     },
+     "Merlin",
+     "£48.86"
+    ],
+    [
+     "Arrows",
+     {
+      "text": "Easton Black Jazz XX75, pack of 6",
+      "url": "https://www.merlinarchery.co.uk/easton-black-jazz-xx75-arrows-6pk.html"
+     },
+     "Merlin",
+     "£34.99"
+    ]
+   ]
+  },
+  "starter-upgrades": {
+   "columns": [
+    "Upgrade",
+    "Why",
+    "Example at Merlin"
+   ],
+   "rows": [
+    [
+     "Click-adjust sight",
+     "The most useful first upgrade: small, exact sight changes",
+     {
+      "text": "Bicaster Aura, £63.17",
+      "url": "https://www.merlinarchery.co.uk/bicaster-archery-aura-recurve-sight.html"
+     }
+    ],
+    [
+     "Shibuya DX pressure button",
+     "Reliable and tunable; many archers keep it for years",
+     {
+      "text": "Shibuya DX Gold Tip, £28.99",
+      "url": "https://www.merlinarchery.co.uk/shibuya-dx-gold-tip-button.html"
+     }
+    ],
+    [
+     "Tab with adjustable ledge and spacer",
+     "Helps you find the same anchor on every shot",
+     {
+      "text": "Avalon Tyro Basic, £6.95",
+      "url": "https://www.merlinarchery.co.uk/avalon-tyro-basic-tab.html"
+     }
+    ]
+   ]
+  },
+  "advanced-now": {
+   "caption": "Stage 1 example build at Merlin Archery",
+   "columns": [
+    "Part",
+    "Product",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Riser",
+     {
+      "text": "Hoyt Xceed 2-Series Grand Prix 25\"",
+      "url": "https://www.merlinarchery.co.uk/hoyt-xceed-2-series-grand-prix-25-recurve-riser.html"
+     },
+     "£799.99"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Shibuya Ultima RC Pro G2",
+      "url": "https://www.merlinarchery.co.uk/shibuya-ultima-rc-pro-g2-recurve-sight.html"
+     },
+     "£379.99"
+    ],
+    [
+     "Pressure button",
+     {
+      "text": "Beiter Button",
+      "url": "https://www.merlinarchery.co.uk/beiter-button.html"
+     },
+     "£94.99"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "Beiter Clicker",
+      "url": "https://www.merlinarchery.co.uk/beiter-clicker.html"
+     },
+     "from £10.99"
+    ],
+    [
+     "Stabilisers",
+     {
+      "text": "W&W HMC Plus complete set (long rod, side rods, V-bar, extender)",
+      "url": "https://www.merlinarchery.co.uk/cartel-maxion-complete-stabiliser-set-4.html"
+     },
+     "£328.75–£368.64"
+    ],
+    [
+     "Finger tab",
+     {
+      "text": "AAE KSL Gold Cordovan",
+      "url": "https://www.merlinarchery.co.uk/aae-tab-ksl-gold-cordovan.html"
+     },
+     "£77.88"
+    ],
+    [
+     "Case",
+     {
+      "text": "Fivics Aegis hard case, 4 wheels, single",
+      "url": "https://www.merlinarchery.co.uk/fivics-aegis-hard-case-4-wheels-single.html"
+     },
+     "£230.77"
+    ],
+    [
+     "Total",
+     "",
+     "£1,923.36–£1,963.25"
+    ]
+   ]
+  },
+  "advanced-later": {
+   "caption": "Stage 2: when your draw weight is stable",
+   "columns": [
+    "Part",
+    "Good value",
+    "Top end"
+   ],
+   "rows": [
+    [
+     "Limbs",
+     {
+      "text": "W&W Wiawis MXT-XP, £749.99 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-mxt-xp-wood-recurve-limbs.html"
+     },
+     {
+      "text": "W&W Wiawis NS-G2, £999.98 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-ns-g2-foam-recurve-limbs.html"
+     }
+    ],
+    [
+     "12 arrows",
+     {
+      "text": "Easton X10, made to your length, from £486.90 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/easton-x10-custom-made-arrow-all-sizes.html"
+     },
+     {
+      "text": "Easton X10, up to £715 depending on spine (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/easton-x10-custom-made-arrow-all-sizes.html"
+     }
+    ],
+    [
+     "Total",
+     "£1,236.89",
+     "£1,714.98"
+    ]
+   ]
+  },
+  "advanced-risers": {
+   "columns": [
+    "Riser",
+    "Merlin",
+    "Quicks",
+    "Clickers"
+   ],
+   "rows": [
+    [
+     "W&W Wiawis ATF-X 25\"",
+     {
+      "text": "£599.99",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-atf-x-recurve-riser-25.html"
+     },
+     {
+      "text": "£678.00",
+      "url": "https://www.quicksarchery.co.uk/win-and-win-wiawis-atf-x-alloy-riser-25-inch-wb62.html?search=wiawis"
+     },
+     ""
+    ],
+    [
+     "Gillo GT 25\"",
+     "",
+     "",
+     {
+      "text": "£599.00",
+      "url": "https://www.clickersarchery.co.uk/products/gillogt-25-ilf-riser/"
+     }
+    ],
+    [
+     "Hoyt Xceed 2 Grand Prix 25\"",
+     {
+      "text": "£799.99",
+      "url": "https://www.merlinarchery.co.uk/hoyt-xceed-2-series-grand-prix-25-recurve-riser.html"
+     },
+     {
+      "text": "£874.99",
+      "url": "https://www.quicksarchery.co.uk/hoyt-xceed-two-recurve-flagship-bow-archery-en?search=xceed"
+     },
+     ""
+    ],
+    [
+     "Hoyt Formula SR 25\" (Formula fit, not ILF)",
+     {
+      "text": "£799.99",
+      "url": "https://www.merlinarchery.co.uk/hoyt-formula-sr-25-recurve-riser.html"
+     },
+     "",
+     ""
+    ],
+    [
+     "Fivics Skadi-TX 25\"",
+     {
+      "text": "£799.99",
+      "url": "https://www.merlinarchery.co.uk/fivics-skadi-tx-recurve-riser-25.html"
+     },
+     "",
+     ""
+    ],
+    [
+     "Hoyt Grand Prix GMX-3",
+     "",
+     {
+      "text": "£810.00",
+      "url": "https://www.quicksarchery.co.uk/hoyt-gmx-en?search=hoyt%20riser"
+     },
+     ""
+    ],
+    [
+     "W&W Wiawis Meta DX",
+     {
+      "text": "£849.89",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-meta-dx-recurve-riser.html"
+     },
+     {
+      "text": "£924.00",
+      "url": "https://www.quicksarchery.co.uk/win-and-win-wiawis-meta-dx-carbon-riser-25-inch-wb66.html?search=wiawis"
+     },
+     ""
+    ],
+    [
+     "Gillo GF",
+     {
+      "text": "£935.21 (27\")",
+      "url": "https://www.merlinarchery.co.uk/gillo-gf-ilf-27-recurve-riser.html"
+     },
+     "",
+     {
+      "text": "from £749.00",
+      "url": "https://www.clickersarchery.co.uk/products/gillo-gf-recurve-riser/"
+     }
+    ],
+    [
+     "W&W Wiawis Meta LX",
+     {
+      "text": "£979.99",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-meta-lx-recurve-riser.html"
+     },
+     {
+      "text": "£978.00",
+      "url": "https://www.quicksarchery.co.uk/winandwin-wiawis-meta-lx-carbon-recurve-riser-en?search=wiawis"
+     },
+     ""
+    ],
+    [
+     "Uukha Xpro3",
+     {
+      "text": "£999.89",
+      "url": "https://www.merlinarchery.co.uk/uukha-xpro3-recurve-riser-25.html"
+     },
+     "",
+     {
+      "text": "£999.00",
+      "url": "https://www.clickersarchery.co.uk/products/uukha-xpro3-recurve-riser/"
+     }
+    ]
+   ]
+  },
+  "advanced-limbs": {
+   "columns": [
+    "Limbs",
+    "Merlin",
+    "Quicks",
+    "Clickers"
+   ],
+   "rows": [
+    [
+     "Uukha U5 Sigma",
+     {
+      "text": "£724.99",
+      "url": "https://www.merlinarchery.co.uk/uukha-u5-sigma-recurve-limbs.html"
+     },
+     "",
+     {
+      "text": "£725.00",
+      "url": "https://www.clickersarchery.co.uk/products/uukha-sigma-recurve-limbs/"
+     }
+    ],
+    [
+     "Hoyt AXIA (Formula fit, 2024)",
+     "",
+     {
+      "text": "£742.40",
+      "url": "https://www.quicksarchery.co.uk/hoyt-formula-axia-syntactic-foam-limbs-2024-model-hb28.html?search=hoyt%20limbs",
+      "note": "(was £885)"
+     },
+     ""
+    ],
+    [
+     "W&W Wiawis MXT-XP",
+     {
+      "text": "£749.99",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-mxt-xp-wood-recurve-limbs.html"
+     },
+     "",
+     {
+      "text": "£815.00",
+      "url": "https://www.clickersarchery.co.uk/products/win-and-win-wiawis-mxt-xp-foam-limbs/"
+     }
+    ],
+    [
+     "W&W Wiawis MXT-GF",
+     "",
+     {
+      "text": "£756.00",
+      "url": "https://www.quicksarchery.co.uk/win-and-win-wiawis-mxt-gf-carbon-graphene-foam-core-limbs-wb59.html?search=wiawis"
+     },
+     ""
+    ],
+    [
+     "Hoyt AXIA (Grand Prix fit)",
+     "",
+     {
+      "text": "£769.80",
+      "url": "https://www.quicksarchery.co.uk/hoyt-grand-prix-axia-limbs-hb98.html?search=hoyt%20limbs",
+      "note": "(was £855)"
+     },
+     ""
+    ],
+    [
+     "W&W Wiawis NS-XP",
+     {
+      "text": "£799.99",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-ns-xp-wood-recurve-limbs.html"
+     },
+     "",
+     {
+      "text": "£799.00",
+      "url": "https://www.clickersarchery.co.uk/products/win-win-ns-xp-foam-recurve-limbs/"
+     }
+    ],
+    [
+     "W&W Wiawis MXT-XT",
+     {
+      "text": "£839.99",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-mxt-xt-wood-recurve-limbs.html"
+     },
+     "",
+     {
+      "text": "£850.00",
+      "url": "https://www.clickersarchery.co.uk/products/win-and-win-mxt-xt-recurve-limbs/"
+     }
+    ],
+    [
+     "Uukha U5 Omega",
+     {
+      "text": "£989.99",
+      "url": "https://www.merlinarchery.co.uk/uukha-u5-omega-recurve-limbs.html"
+     },
+     "",
+     {
+      "text": "£990.00",
+      "url": "https://www.clickersarchery.co.uk/products/uukha-omega-recurve-limbs/"
+     }
+    ],
+    [
+     "W&W Wiawis NS-G2",
+     {
+      "text": "£999.98",
+      "url": "https://www.merlinarchery.co.uk/win-win-wiawis-ns-g2-foam-recurve-limbs.html"
+     },
+     "",
+     ""
+    ]
+   ]
+  },
+  "advanced-accessories": {
+   "columns": [
+    "Type",
+    "Product",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     "Sight",
+     {
+      "text": "Shibuya Ultima III RC Carbon",
+      "url": "https://www.quicksarchery.co.uk/shibuya-ultima-iii-rc-carbon-recurve-sight-yv65.html"
+     },
+     "£264.00",
+     "Quicks"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Shibuya Ultima RC 4",
+      "url": "https://www.merlinarchery.co.uk/shibuya-ultima-rc-4-recurve-sight.html"
+     },
+     "£279.98",
+     "Merlin (Clickers £280)"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Shibuya Ultima RC Pro G2",
+      "url": "https://www.merlinarchery.co.uk/shibuya-ultima-rc-pro-g2-recurve-sight.html"
+     },
+     "£379.99",
+     {
+      "text": "Merlin (Clickers £380)",
+      "url": "https://www.clickersarchery.co.uk/products/shibuya-ultima-rc-pro-g2-recurve-sight/"
+     }
+    ],
+    [
+     "Sight",
+     {
+      "text": "Axcel Achieve XP Carbon",
+      "url": "https://www.merlinarchery.co.uk/axcel-achieve-xp-carbon-recurve-sight.html"
+     },
+     "£456.92",
+     "Merlin"
+    ],
+    [
+     "Button",
+     {
+      "text": "Shibuya DX Gold Tip",
+      "url": "https://www.merlinarchery.co.uk/shibuya-dx-gold-tip-button.html"
+     },
+     "£28.99",
+     "Merlin"
+    ],
+    [
+     "Button",
+     {
+      "text": "Beiter Button",
+      "url": "https://www.merlinarchery.co.uk/beiter-button.html"
+     },
+     "£94.99",
+     "Merlin"
+    ],
+    [
+     "Button",
+     {
+      "text": "AAE Gold Micro Button",
+      "url": "https://www.merlinarchery.co.uk/aae-gold-micro-button.html"
+     },
+     "£113.60",
+     "Merlin"
+    ],
+    [
+     "Button",
+     {
+      "text": "Fivics Airex Button",
+      "url": "https://www.merlinarchery.co.uk/fivics-airex-button.html"
+     },
+     "£134.62",
+     "Merlin"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "Beiter Clicker",
+      "url": "https://www.merlinarchery.co.uk/beiter-clicker.html"
+     },
+     "from £10.99",
+     "Merlin"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "Win & Win ACS Carbon Clicker",
+      "url": "https://www.merlinarchery.co.uk/win-win-acs-carbon-clicker.html"
+     },
+     "£25.99",
+     "Merlin"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "AAE Gold Micro Clicker",
+      "url": "https://www.merlinarchery.co.uk/aae-gold-micro-clicker.html"
+     },
+     "£61.24",
+     "Merlin"
+    ],
+    [
+     "Tab",
+     {
+      "text": "Fairweather tab plates and leather",
+      "url": "https://www.merlinarchery.co.uk/fairweather-archery-tab-plates-and-leather.html"
+     },
+     "£42.41",
+     "Merlin"
+    ],
+    [
+     "Tab",
+     {
+      "text": "AAE KSL Gold Cordovan",
+      "url": "https://www.merlinarchery.co.uk/aae-tab-ksl-gold-cordovan.html"
+     },
+     "£77.88",
+     "Merlin"
+    ],
+    [
+     "Tab",
+     {
+      "text": "Axcel Contour Pro",
+      "url": "https://www.merlinarchery.co.uk/axcel-contour-pro-tab.html"
+     },
+     "£99.89",
+     "Merlin"
+    ]
+   ]
+  },
+  "advanced-stabilisers": {
+   "columns": [
+    "Product",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     {
+      "text": "W&W Wiawis CX-AD adjustable carbon V-bar",
+      "url": "https://www.quicksarchery.co.uk/win-and-win-wiawis-cx-ad-adjustable-carbon-v-bar-wr77.html?search=wiawis"
+     },
+     "£129.00",
+     "Quicks"
+    ],
+    [
+     {
+      "text": "Shibuya Vanquish Pro long rod / short rod",
+      "url": "https://www.merlinarchery.co.uk/shibuya-vanquish-pro-stabiliser-long.html"
+     },
+     "£265.73 / £159.44",
+     "Merlin"
+    ],
+    [
+     {
+      "text": "W&W HMC Plus complete stabiliser set",
+      "url": "https://www.merlinarchery.co.uk/cartel-maxion-complete-stabiliser-set-4.html"
+     },
+     "£328.75–£368.64",
+     "Merlin"
+    ],
+    [
+     {
+      "text": "Doinker Champion stabiliser",
+      "url": "https://www.merlinarchery.co.uk/doinker-champion-stabiliser.html"
+     },
+     "£376.48",
+     "Merlin"
+    ],
+    [
+     {
+      "text": "Doinker Ghost long rod",
+      "url": "https://www.merlinarchery.co.uk/doinker-ghost-stabiliser-long.html"
+     },
+     "£449.99",
+     "Merlin"
+    ],
+    [
+     {
+      "text": "W&W ACS-15 complete stabiliser set",
+      "url": "https://www.merlinarchery.co.uk/cartel-maxion-complete-stabiliser-set-6.html"
+     },
+     "£501.85",
+     "Merlin"
+    ]
+   ]
+  },
+  "advanced-arrows-cases": {
+   "columns": [
+    "Product",
+    "Merlin",
+    "Quicks"
+   ],
+   "rows": [
+    [
+     "Easton ACE, 12 made to your length",
+     {
+      "text": "£364.84–£413.83",
+      "url": "https://www.merlinarchery.co.uk/easton-ace-custom-made-arrow-all-sizes.html"
+     },
+     ""
+    ],
+    [
+     "Easton X10 Protour, 12 fletched",
+     {
+      "text": "£436.81–£664.91",
+      "url": "https://www.merlinarchery.co.uk/easton-x10-protour-custom-made-arrow-all-sizes.html",
+      "note": "(sale)"
+     },
+     {
+      "text": "£505.32",
+      "url": "https://www.quicksarchery.co.uk/easton-x10-pro-tour-arrows-with-ep08-points-and-easton-pin-nocks-set-of-12-es15.html?search=x10"
+     }
+    ],
+    [
+     "Easton X10, 12 fletched",
+     {
+      "text": "£486.90–£715.00",
+      "url": "https://www.merlinarchery.co.uk/easton-x10-custom-made-arrow-all-sizes.html"
+     },
+     {
+      "text": "£517.02",
+      "url": "https://www.quicksarchery.co.uk/easton-x10-arrows-with-ep08-points-and-beiter-pin-nocks-set-of-12-es10.html?search=x10"
+     }
+    ],
+    [
+     "Easton X10, 12 bare shafts",
+     "£409.99",
+     {
+      "text": "£420.00",
+      "url": "https://www.quicksarchery.co.uk/easton-x10-shafts-per-12-es10.html?search=x10"
+     }
+    ],
+    [
+     "Fivics Aegis hard case, 4 wheels",
+     {
+      "text": "£230.77 single / £269.23 double",
+      "url": "https://www.merlinarchery.co.uk/fivics-aegis-hard-case-4-wheels-single.html"
+     },
+     ""
+    ],
+    [
+     "W&W Wiawis tackle case with wheels",
+     "",
+     {
+      "text": "£266.40",
+      "url": "https://www.quicksarchery.co.uk/winwin-wiawis-tackle-case-en?search=wiawis"
+     }
+    ],
+    [
+     "Shibuya Transporter recurve case",
+     {
+      "text": "£279.98",
+      "url": "https://www.merlinarchery.co.uk/shibuya-transporter-recurve-case-56-5l.html"
+     },
+     ""
+    ]
+   ]
+  },
+  "mid-builds": {
+   "columns": [
+    "Part",
+    "Value, about £629",
+    "Club competitor, about £823",
+    "Top of range, about £1,208"
+   ],
+   "rows": [
+    [
+     "Riser",
+     {
+      "text": "Mybo Elite 25\", £250 (Merlin, sale)",
+      "url": "https://www.merlinarchery.co.uk/mybo-elite-25-recurve-risers.html"
+     },
+     {
+      "text": "WNS Quantum AX V2 25\", £269.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/wns-quantum-ax-riser-v2-25/"
+     },
+     {
+      "text": "Hoyt RCRV Podium 25\", £320 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/hoyt-rcrv-podium-recurve-riser-25/"
+     }
+    ],
+    [
+     "Limbs",
+     {
+      "text": "Kinetic Astonix carbon/foam, £119.99 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/kinetic-astonix-carbon-foam-recurve-limbs.html"
+     },
+     {
+      "text": "WNS Procyon 2 C5 foam, £149.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/wns-procyon-2-c5-foam-limbs/"
+     },
+     {
+      "text": "Kinetic Fury 3K carbon/foam, £209.50 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/kinetic-fury-3k-ilf-carbon-foam-limbs/"
+     }
+    ],
+    [
+     "Stabilisers",
+     {
+      "text": "Cartel Maxion set, £58 (Quicks)",
+      "url": "https://www.quicksarchery.co.uk/bow-accessories/stabilisers/stabiliser-sets/cartel-maxion-stabiliser-set-qr90-qr91x2-qr57-qr90set.html"
+     },
+     {
+      "text": "WNS SAT carbon set, £88.07 (Quicks)",
+      "url": "https://www.quicksarchery.co.uk/bow-accessories/stabilisers/stabiliser-sets/wns-sat-carbon-stabiliser-set-10-discounted-bundle-wr85-wr86-x2-wr87-qr57-wr85-set.html"
+     },
+     {
+      "text": "Avalon Tec 22mm set, £87.50 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/avalon-tec-22mm-stabiliser-set/"
+     }
+    ],
+    [
+     "Sight",
+     {
+      "text": "Bicaster Aura, £54.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/bicaster-archery-aura-recurve-sight/"
+     },
+     {
+      "text": "Avalon Tec Maxx Carbon, £99.89 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/avalon-tec-maxx-carbon-recurve-sight.html"
+     },
+     {
+      "text": "Shibuya Ultima RC IV Carbon, £237.50 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-ultima-rc-iv-carbon-recurve-sight/"
+     }
+    ],
+    [
+     "Button",
+     {
+      "text": "Shibuya DX, £26.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-dx-pressure-button/"
+     },
+     {
+      "text": "Shibuya DX, £26.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-dx-pressure-button/"
+     },
+     {
+      "text": "Shibuya DX, £26.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-dx-pressure-button/"
+     }
+    ],
+    [
+     "Clicker",
+     {
+      "text": "Beiter Standard, £10.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/beiter-standard-clicker/"
+     },
+     {
+      "text": "Beiter Standard, £10.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/beiter-standard-clicker/"
+     },
+     {
+      "text": "AAE Magnetic, £37.90 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/aae-clicker-magnetic.html"
+     }
+    ],
+    [
+     "12 arrows",
+     {
+      "text": "Skylon Radius, £57.13 (Merlin)",
+      "url": "https://www.merlinarchery.co.uk/skylon-radius-arrows.html"
+     },
+     {
+      "text": "Easton Avance Sport with points, £126 (Quicks)",
+      "url": "https://www.quicksarchery.co.uk/Arrows/ready-made/carbon-arrows/easton-avance-sport-carbon-arrows-set-of-12-with-ep72-points-es74.html"
+     },
+     {
+      "text": "Easton Avance custom, pins and pin nocks, £189 (Quicks)",
+      "url": "https://www.quicksarchery.co.uk/Arrows/ready-made/carbon-arrows/easton-avance-carbon-custom-made-arrows-pins-and-pin-nocks-set-12-es72.html"
+     }
+    ],
+    [
+     "String",
+     {
+      "text": "Nitro single colour, £18.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/nitro-bowstrings-single-colour/"
+     },
+     {
+      "text": "Nitro single colour, £18.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/nitro-bowstrings-single-colour/"
+     },
+     {
+      "text": "GAS 8125, £44.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/gas-bowstrings-8125-recurve-string/"
+     }
+    ],
+    [
+     "Tab",
+     {
+      "text": "AAE Elite Super Leather, £32.50 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/aae-elite-tab-super-leather/"
+     },
+     {
+      "text": "AAE Elite Super Leather, £32.50 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/aae-elite-tab-super-leather/"
+     },
+     {
+      "text": "Fivics Saker, £54.95 (Chiltern)",
+      "url": "https://chiltern-archery.co.uk/product/fivics-saker-2-finger-tab/"
+     }
+    ],
+    [
+     "Total",
+     "£629.42",
+     "£823.21",
+     "£1,208.25"
+    ]
+   ]
+  },
+  "mid-risers": {
+   "columns": [
+    "Riser (25\")",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     {
+      "text": "WNS Vantage AX",
+      "url": "https://www.merlinarchery.co.uk/wns-vantage-ax-recurve-riser.html"
+     },
+     {
+      "text": "£232.00",
+      "note": "(was £289.99)"
+     },
+     "Merlin"
+    ],
+    [
+     {
+      "text": "Kinetic Sovren",
+      "url": "https://chiltern-archery.co.uk/product/kinetic-sovren-riser-25/"
+     },
+     "£235.00",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Mybo Elite",
+      "url": "https://www.merlinarchery.co.uk/mybo-elite-25-recurve-risers.html"
+     },
+     {
+      "text": "£250.00",
+      "note": "(sale; limited colours)"
+     },
+     "Merlin"
+    ],
+    [
+     {
+      "text": "WNS Quantum AX V2",
+      "url": "https://chiltern-archery.co.uk/product/wns-quantum-ax-riser-v2-25/"
+     },
+     "£269.95",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Mybo Wave XR",
+      "url": "https://www.merlinarchery.co.uk/mybo-wave-xr-25-recurve-risers.html"
+     },
+     {
+      "text": "£271.20",
+      "note": "(was £339)"
+     },
+     "Merlin"
+    ],
+    [
+     {
+      "text": "WNS Quantum AX",
+      "url": "https://www.merlinarchery.co.uk/wns-quantum-ax-25-recurve-riser.html"
+     },
+     "from £272.57",
+     "Merlin"
+    ],
+    [
+     {
+      "text": "Kinetic Elezo",
+      "url": "https://chiltern-archery.co.uk/product/kinetic-elezo-riser-25/"
+     },
+     "£299.50",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Hoyt RCRV Podium",
+      "url": "https://chiltern-archery.co.uk/product/hoyt-rcrv-podium-recurve-riser-25/"
+     },
+     "£320.00",
+     "Chiltern (Quicks £330, on backorder)"
+    ],
+    [
+     {
+      "text": "Fivics Vellator 2026",
+      "url": "https://chiltern-archery.co.uk/product/fivics-vellator-2026-recurve-riser-25/"
+     },
+     "£329.95–£349.95",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Gillo GX2",
+      "url": "https://www.quicksarchery.co.uk/bows/recurve-target-bows/gillo-gxtwo-recurve-barebow-riser-en"
+     },
+     "£354.00",
+     "Quicks (Chiltern £389.50)"
+    ],
+    [
+     {
+      "text": "Gillo GT",
+      "url": "https://www.quicksarchery.co.uk/bows/recurve-target-bows/gillo-gt-25-inch-riser-jb44.html"
+     },
+     "£589.20",
+     "Quicks (Clickers £599)"
+    ],
+    [
+     {
+      "text": "W&W Wiawis ATF-DX",
+      "url": "https://chiltern-archery.co.uk/product/wiawis-atf-dx/"
+     },
+     "£652.50",
+     "Chiltern (Quicks £719.88)"
+    ]
+   ]
+  },
+  "mid-limbs": {
+   "columns": [
+    "Limbs (ILF)",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     {
+      "text": "Kinetic Astonix carbon/foam",
+      "url": "https://www.merlinarchery.co.uk/kinetic-astonix-carbon-foam-recurve-limbs.html"
+     },
+     "£119.99",
+     "Merlin (Quicks £149.40)"
+    ],
+    [
+     {
+      "text": "Mybo Arca carbon/foam",
+      "url": "https://www.merlinarchery.co.uk/mybo-arca-carbon-foam-recurve-limbs.html"
+     },
+     "£129.00",
+     "Merlin"
+    ],
+    [
+     {
+      "text": "WNS Procyon 2 C5 foam",
+      "url": "https://chiltern-archery.co.uk/product/wns-procyon-2-c5-foam-limbs/"
+     },
+     "£149.95",
+     "Chiltern (Clickers Procyon C5 £192)"
+    ],
+    [
+     {
+      "text": "WNS SF Trinity 2 C6 foam",
+      "url": "https://chiltern-archery.co.uk/product/wns-trinity-2-c6-foam-limbs/"
+     },
+     "£189.95",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Kinetic Fury 3K carbon/foam",
+      "url": "https://chiltern-archery.co.uk/product/kinetic-fury-3k-ilf-carbon-foam-limbs/"
+     },
+     "£209.50",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Fivics Vellator V3",
+      "url": "https://chiltern-archery.co.uk/product/fivics-vellator-v3-ilf-limbs/"
+     },
+     "£220.00–£240.00",
+     "Chiltern (Merlin £240)"
+    ],
+    [
+     {
+      "text": "Hoyt RCRV Podium Grand Prix",
+      "url": "https://chiltern-archery.co.uk/product/hoyt-grand-prix-rcrv-podium-ilf-recurve-limbs/"
+     },
+     "£270.00",
+     "Chiltern (Quicks £271.20, mostly backorder)"
+    ],
+    [
+     {
+      "text": "Gillo GTL Q5 carbon/foam",
+      "url": "https://www.quicksarchery.co.uk/bows/recurve-target-bows/gillo-recurve-limbs-internationalfit-competitive-en"
+     },
+     "£298.80",
+     "Quicks"
+    ],
+    [
+     {
+      "text": "Mybo Synergy 360",
+      "url": "https://www.merlinarchery.co.uk/mybo-synergy-360-recurve-limbs.html"
+     },
+     {
+      "text": "£349.99",
+      "note": "(was £499.99; limited weights)"
+     },
+     "Merlin"
+    ],
+    [
+     {
+      "text": "Uukha U5 Yangi",
+      "url": "https://chiltern-archery.co.uk/product/uukha-u5-yangi-ilf-recurve-limbs/"
+     },
+     "£374.50",
+     "Chiltern"
+    ]
+   ]
+  },
+  "mid-stabilisers": {
+   "columns": [
+    "Product",
+    "Includes",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     {
+      "text": "Cartel Maxion stabiliser set",
+      "url": "https://www.quicksarchery.co.uk/bow-accessories/stabilisers/stabiliser-sets/cartel-maxion-stabiliser-set-qr90-qr91x2-qr57-qr90set.html"
+     },
+     "Long rod, 2 side rods, V-bar",
+     "£58.00",
+     "Quicks"
+    ],
+    [
+     {
+      "text": "Avalon Tec 22mm stabiliser set",
+      "url": "https://chiltern-archery.co.uk/product/avalon-tec-22mm-stabiliser-set/"
+     },
+     "Long rod, 2 side rods, extender, V-bar",
+     "£87.50",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "WNS SAT carbon stabiliser set",
+      "url": "https://www.quicksarchery.co.uk/bow-accessories/stabilisers/stabiliser-sets/wns-sat-carbon-stabiliser-set-10-discounted-bundle-wr85-wr86-x2-wr87-qr57-wr85-set.html"
+     },
+     "Long rod, 2 side rods, extender, V-bar",
+     "£88.07",
+     "Quicks"
+    ],
+    [
+     {
+      "text": "Shibuya Versa long and short rods",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-versa-stabiliser-long/"
+     },
+     "Rods only; add a V-bar such as the Shibuya Primus (£39.95)",
+     "£109.95 long, £59.95 short",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Shibuya Vanquish long rod",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-vanquish-stabiliser-long/"
+     },
+     "Long rod only; top of the intermediate range",
+     "£255.00",
+     "Chiltern (Merlin from £264.52)"
+    ]
+   ]
+  },
+  "mid-accessories": {
+   "columns": [
+    "Type",
+    "Product",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     "Sight",
+     {
+      "text": "Bicaster Aura",
+      "url": "https://chiltern-archery.co.uk/product/bicaster-archery-aura-recurve-sight/"
+     },
+     "£54.95",
+     "Chiltern (Merlin £63.17)"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Decut Sius RE",
+      "url": "https://www.quicksarchery.co.uk/bow-accessories/sights/recurve-bow-sights/decut-sius-re-recurve-sight-rh-lh-jv23.html"
+     },
+     "£78.00",
+     "Quicks"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Avalon Tec Maxx Carbon",
+      "url": "https://www.merlinarchery.co.uk/avalon-tec-maxx-carbon-recurve-sight.html"
+     },
+     "£99.89",
+     "Merlin"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Shibuya Dual Click",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-dual-click-sight/"
+     },
+     "£109.50",
+     "Chiltern (Quicks £114)"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Avalon Powr DLX Carbon",
+      "url": "https://chiltern-archery.co.uk/product/avalon-powr-dlx-carbon-recurve-sight/"
+     },
+     "£139.95",
+     "Chiltern (Quicks £144.60)"
+    ],
+    [
+     "Sight",
+     {
+      "text": "Shibuya Ultima RC IV Carbon",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-ultima-rc-iv-carbon-recurve-sight/"
+     },
+     {
+      "text": "£237.50",
+      "note": "(was £279.50)"
+     },
+     "Chiltern (Merlin £279.98)"
+    ],
+    [
+     "Button",
+     {
+      "text": "Avalon Tec Maxx Micro-Click",
+      "url": "https://chiltern-archery.co.uk/product/avalon-tec-maxx-micro-click-button/"
+     },
+     "£26.50",
+     "Chiltern"
+    ],
+    [
+     "Button",
+     {
+      "text": "Shibuya DX Gold Tip",
+      "url": "https://chiltern-archery.co.uk/product/shibuya-dx-pressure-button/"
+     },
+     "£26.95",
+     "Chiltern (Merlin £28.99)"
+    ],
+    [
+     "Button",
+     {
+      "text": "Spigarelli Micro Click",
+      "url": "https://chiltern-archery.co.uk/product/spigarelli-micro-click-button/"
+     },
+     "£42.50",
+     "Chiltern"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "Beiter Standard",
+      "url": "https://chiltern-archery.co.uk/product/beiter-standard-clicker/"
+     },
+     "£10.95",
+     "Chiltern"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "Win & Win Wiawis ACS Carbon",
+      "url": "https://chiltern-archery.co.uk/product/win-win-wiawis-acs-carbon-clicker-2/"
+     },
+     "£25.50",
+     "Chiltern"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "AAE Magnetic",
+      "url": "https://www.merlinarchery.co.uk/aae-clicker-magnetic.html"
+     },
+     "£37.90",
+     "Merlin"
+    ],
+    [
+     "Clicker",
+     {
+      "text": "AAE Gold Extended",
+      "url": "https://chiltern-archery.co.uk/product/aae-gold-extended-clicker/"
+     },
+     "£45.95",
+     "Chiltern"
+    ]
+   ]
+  },
+  "mid-arrows": {
+   "columns": [
+    "Arrows",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     {
+      "text": "Skylon Radius arrows, 12",
+      "url": "https://www.merlinarchery.co.uk/skylon-radius-arrows.html"
+     },
+     {
+      "text": "£57.13",
+      "note": "(check whether fletched)"
+     },
+     "Merlin"
+    ],
+    [
+     {
+      "text": "Easton Avance Sport shafts, 12",
+      "url": "https://chiltern-archery.co.uk/product/easton-avance-sport-shafts-set-of-12/"
+     },
+     "£99.95",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Easton Avance shafts, 12",
+      "url": "https://chiltern-archery.co.uk/product/easton-avance-shafts-set-of-12/"
+     },
+     "£114.95",
+     "Chiltern"
+    ],
+    [
+     {
+      "text": "Easton Avance Sport arrows with points, 12",
+      "url": "https://www.quicksarchery.co.uk/Arrows/ready-made/carbon-arrows/easton-avance-sport-carbon-arrows-set-of-12-with-ep72-points-es74.html"
+     },
+     "£126.00",
+     "Quicks"
+    ],
+    [
+     {
+      "text": "Skylon Paragon shafts, 12",
+      "url": "https://chiltern-archery.co.uk/product/skylon-paragon-shafts-set-of-12/"
+     },
+     "£134.50",
+     "Chiltern (Merlin £140.84)"
+    ],
+    [
+     {
+      "text": "Easton Avance custom-made, 12",
+      "url": "https://www.quicksarchery.co.uk/Arrows/ready-made/carbon-arrows/easton-avance-carbon-custom-made-arrows-pins-and-pin-nocks-set-12-es72.html"
+     },
+     "£165.96–£189.00",
+     "Quicks"
+    ]
+   ]
+  },
+  "mid-strings-tabs": {
+   "columns": [
+    "Type",
+    "Product",
+    "Price",
+    "Shop"
+   ],
+   "rows": [
+    [
+     "String",
+     {
+      "text": "Nitro single colour",
+      "url": "https://chiltern-archery.co.uk/product/nitro-bowstrings-single-colour/"
+     },
+     "£18.95",
+     "Chiltern"
+    ],
+    [
+     "String",
+     {
+      "text": "GAS 8125 recurve string",
+      "url": "https://chiltern-archery.co.uk/product/gas-bowstrings-8125-recurve-string/"
+     },
+     "£44.95",
+     "Chiltern"
+    ],
+    [
+     "Tab",
+     {
+      "text": "AAE Elite Super Leather",
+      "url": "https://chiltern-archery.co.uk/product/aae-elite-tab-super-leather/"
+     },
+     "£32.50",
+     "Chiltern"
+    ],
+    [
+     "Tab",
+     {
+      "text": "Win & Win Wiawis 360 Cordovan",
+      "url": "https://chiltern-archery.co.uk/product/win-win-wiawis-360-cordovan-tab/"
+     },
+     "£39.50",
+     "Chiltern"
+    ],
+    [
+     "Tab",
+     {
+      "text": "Shibuya Apex",
+      "url": "https://www.merlinarchery.co.uk/shibuya-apex-finger-tab.html"
+     },
+     "from £44.95",
+     "Chiltern / Merlin"
+    ],
+    [
+     "Tab",
+     {
+      "text": "Fivics Saker",
+      "url": "https://chiltern-archery.co.uk/product/fivics-saker-2-finger-tab/"
+     },
+     "£54.95",
+     "Chiltern"
+    ],
+    [
+     "Tab",
+     {
+      "text": "Bicaster LOG",
+      "url": "https://chiltern-archery.co.uk/product/bicaster-log-finger-tab/"
+     },
+     "£54.95",
+     "Chiltern (Merlin from £61.45)"
+    ]
+   ]
+  }
+ }
+}
