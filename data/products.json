@@ -10,7 +10,7 @@
     [
      "Riser",
      {
-      "text": "Mybo Elite 25\" (ILF, CNC-machined)"
+      "text": "CNC-machined intermediate riser from Mybo or WNS"
      }
     ],
     [
@@ -126,18 +126,13 @@
    "rows": [
     [
      {
+      "text": "Uukha Alpha"
+     }
+    ],
+    [
+     {
       "text": "WNS Hyperion",
       "note": "(very good value)"
-     }
-    ],
-    [
-     {
-      "text": "Kinetic Astonix carbon/foam"
-     }
-    ],
-    [
-     {
-      "text": "Mybo Arca carbon/foam"
      }
     ],
     [
@@ -152,7 +147,22 @@
     ],
     [
      {
+      "text": "Kinetic Astonix carbon/foam"
+     }
+    ],
+    [
+     {
       "text": "Kinetic Fury 3K carbon/foam"
+     }
+    ],
+    [
+     {
+      "text": "Mybo Arca carbon/foam"
+     }
+    ],
+    [
+     {
+      "text": "Mybo Synergy 360"
      }
     ],
     [
@@ -164,23 +174,9 @@
      {
       "text": "Hoyt RCRV Podium Grand Prix"
      }
-    ],
-    [
-     {
-      "text": "Gillo GTL Q5 carbon/foam"
-     }
-    ],
-    [
-     {
-      "text": "Mybo Synergy 360"
-     }
-    ],
-    [
-     {
-      "text": "Uukha Alpha"
-     }
     ]
-   ]
+   ],
+   "caption": "Brands in the order I recommend them: Uukha, WNS, then Kinetic. Other options follow"
   },
   "starter-budget-risers": {
    "columns": [
