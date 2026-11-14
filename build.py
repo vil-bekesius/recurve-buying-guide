@@ -75,7 +75,7 @@ def render_page(stem, title, body):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} | UK Olympic Recurve Buying Guide</title>
+<title>{"UK Olympic Recurve Buying Guide" if stem == "index" else esc(title) + " | UK Olympic Recurve Buying Guide"}</title>
 <meta name="description" content="Independent guide to buying Olympic recurve archery equipment from reputable UK shops, from first kit to international level.">
 <link rel="stylesheet" href="style.css">
 </head>
