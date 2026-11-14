@@ -48,7 +48,7 @@
    ]
   },
   "starter-merlin": {
-   "caption": "Example build at Merlin Archery (accessory prices from the sight down were checked in October 2026)",
+   "caption": "Example build at Merlin Archery (accessory prices below the sight were checked in October 2026)",
    "columns": [
     "Part",
     "Product",
@@ -101,9 +101,10 @@
     [
      "Sight",
      {
-      "text": "Avalon Classic 193, click adjustment"
+      "text": "Avalon Classic Carbon recurve sight",
+      "url": "https://www.merlinarchery.co.uk/avalon-classic-carbon-recurve-sight.html"
      },
-     "£39.89"
+     "£59.99"
     ],
     [
      "Long rod",
@@ -164,7 +165,7 @@
     [
      "Total",
      "",
-     "£617.12–£638.88"
+     "£637.22–£658.98"
     ]
    ]
   },
@@ -213,14 +214,6 @@
      },
      "Merlin",
      "£48.86"
-    ],
-    [
-     "Arrows",
-     {
-      "text": "Easton Black Jazz XX75, pack of 6"
-     },
-     "Merlin",
-     "£34.99"
     ]
    ]
   },
