@@ -94,18 +94,6 @@
    ],
    "rows": [
     [
-     "Riser",
-     {
-      "text": "WNS Quantum AX 25\" (CNC-machined)"
-     }
-    ],
-    [
-     "Riser",
-     {
-      "text": "Mybo Wave XR 25\" (CNC-machined)"
-     }
-    ],
-    [
      "Limbs",
      {
       "text": "Kinetic Honoric V2 carbon/foam ILF limbs"
@@ -115,18 +103,6 @@
      "Sight",
      {
       "text": "Avalon Classic Alu recurve sight"
-     }
-    ],
-    [
-     "Riser (budget)",
-     {
-      "text": "Kinetic Vygo 25\""
-     }
-    ],
-    [
-     "Riser (budget)",
-     {
-      "text": "Kinetic Vygo V2 25\""
      }
     ]
    ]
@@ -222,6 +198,45 @@
      "Riser",
      "Only if you started on a budget riser",
      "See Risers below"
+    ]
+   ]
+  },
+  "starter-risers": {
+   "caption": "Risers for your first bow",
+   "columns": [
+    "Riser",
+    "Grade"
+   ],
+   "rows": [
+    [
+     {
+      "text": "Mybo Wave XR 25\" (CNC-machined)"
+     },
+     "Intermediate: recommended"
+    ],
+    [
+     {
+      "text": "WNS Quantum AX 25\" (CNC-machined)"
+     },
+     "Intermediate: recommended"
+    ],
+    [
+     {
+      "text": "Kinetic Novius V2 25\""
+     },
+     "Budget alternative"
+    ],
+    [
+     {
+      "text": "Kinetic Valenz V2 25\""
+     },
+     "Budget alternative"
+    ],
+    [
+     {
+      "text": "Kinetic Evolium 25\""
+     },
+     "Budget alternative"
     ]
    ]
   }
