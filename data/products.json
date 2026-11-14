@@ -778,130 +778,6 @@
     ]
    ]
   },
-  "mid-builds": {
-   "columns": [
-    "Part",
-    "Value, about £629",
-    "Club competitor, about £823",
-    "Top of range, about £1,208"
-   ],
-   "rows": [
-    [
-     "Riser",
-     {
-      "text": "Mybo Elite 25\", £250 (Merlin, sale)"
-     },
-     {
-      "text": "WNS Quantum AX V2 25\", £269.95 (Chiltern)"
-     },
-     {
-      "text": "Hoyt RCRV Podium 25\", £320 (Chiltern)"
-     }
-    ],
-    [
-     "Limbs",
-     {
-      "text": "Kinetic Astonix carbon/foam, £119.99 (Merlin)"
-     },
-     {
-      "text": "WNS Procyon 2 C5 foam, £149.95 (Chiltern)"
-     },
-     {
-      "text": "Kinetic Fury 3K carbon/foam, £209.50 (Chiltern)"
-     }
-    ],
-    [
-     "Stabilisers",
-     {
-      "text": "Cartel Maxion set, £58 (Quicks)"
-     },
-     {
-      "text": "WNS SAT carbon set, £88.07 (Quicks)"
-     },
-     {
-      "text": "Avalon Tec 22mm set, £87.50 (Chiltern)"
-     }
-    ],
-    [
-     "Sight",
-     {
-      "text": "Bicaster Aura, £54.95 (Chiltern)"
-     },
-     {
-      "text": "Avalon Tec Maxx Carbon, £99.89 (Merlin)"
-     },
-     {
-      "text": "Shibuya Ultima RC IV Carbon, £237.50 (Chiltern)"
-     }
-    ],
-    [
-     "Button",
-     {
-      "text": "Shibuya DX, £26.95 (Chiltern)"
-     },
-     {
-      "text": "Shibuya DX, £26.95 (Chiltern)"
-     },
-     {
-      "text": "Shibuya DX, £26.95 (Chiltern)"
-     }
-    ],
-    [
-     "Clicker",
-     {
-      "text": "Beiter Standard, £10.95 (Chiltern)"
-     },
-     {
-      "text": "Beiter Standard, £10.95 (Chiltern)"
-     },
-     {
-      "text": "AAE Magnetic, £37.90 (Merlin)"
-     }
-    ],
-    [
-     "12 arrows",
-     {
-      "text": "Skylon Radius, £57.13 (Merlin)"
-     },
-     {
-      "text": "Easton Avance Sport with points, £126 (Quicks)"
-     },
-     {
-      "text": "Easton Avance custom, pins and pin nocks, £189 (Quicks)"
-     }
-    ],
-    [
-     "String",
-     {
-      "text": "Nitro single colour, £18.95 (Chiltern)"
-     },
-     {
-      "text": "Nitro single colour, £18.95 (Chiltern)"
-     },
-     {
-      "text": "GAS 8125, £44.95 (Chiltern)"
-     }
-    ],
-    [
-     "Tab",
-     {
-      "text": "AAE Elite Super Leather, £32.50 (Chiltern)"
-     },
-     {
-      "text": "AAE Elite Super Leather, £32.50 (Chiltern)"
-     },
-     {
-      "text": "Fivics Saker, £54.95 (Chiltern)"
-     }
-    ],
-    [
-     "Total",
-     "£629.42",
-     "£823.21",
-     "£1,208.25"
-    ]
-   ]
-  },
   "mid-risers": {
    "columns": [
     "Riser (25\")",
@@ -1243,60 +1119,6 @@
     ]
    ]
   },
-  "mid-arrows": {
-   "columns": [
-    "Arrows",
-    "Price",
-    "Shop"
-   ],
-   "rows": [
-    [
-     {
-      "text": "Skylon Radius arrows, 12"
-     },
-     {
-      "text": "£57.13",
-      "note": "(check whether fletched)"
-     },
-     "Merlin"
-    ],
-    [
-     {
-      "text": "Easton Avance Sport shafts, 12"
-     },
-     "£99.95",
-     "Chiltern"
-    ],
-    [
-     {
-      "text": "Easton Avance shafts, 12"
-     },
-     "£114.95",
-     "Chiltern"
-    ],
-    [
-     {
-      "text": "Easton Avance Sport arrows with points, 12"
-     },
-     "£126.00",
-     "Quicks"
-    ],
-    [
-     {
-      "text": "Skylon Paragon shafts, 12"
-     },
-     "£134.50",
-     "Chiltern (Merlin £140.84)"
-    ],
-    [
-     {
-      "text": "Easton Avance custom-made, 12"
-     },
-     "£165.96–£189.00",
-     "Quicks"
-    ]
-   ]
-  },
   "mid-strings-tabs": {
    "columns": [
     "Type",
@@ -1384,6 +1206,68 @@
      "Kinetic Vygo V2 25\"",
      "Merlin",
      "£199.99"
+    ]
+   ]
+  },
+  "mid-upgrades": {
+   "caption": "Upgrades in the order most archers need them",
+   "columns": [
+    "Upgrade",
+    "When",
+    "What I recommend",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Clicker",
+     "When your coach says your form is consistent",
+     "Beiter Standard clicker",
+     {
+      "text": "£10.95",
+      "note": "(Chiltern)"
+     }
+    ],
+    [
+     "Pressure button",
+     "As soon as you can: it lasts for years",
+     "Shibuya DX Gold Tip",
+     {
+      "text": "£26.95",
+      "note": "(Chiltern; Merlin £28.99)"
+     }
+    ],
+    [
+     "Stabilisers",
+     "As your draw weight goes up",
+     "Extender, V-bar and two side rods that match your long rod",
+     {
+      "text": "sets from £58",
+      "note": "(see Stabilisers)"
+     }
+    ],
+    [
+     "Limbs",
+     "Each time your draw weight goes up",
+     "Budget limbs at your new weight, such as Mybo Luna",
+     {
+      "text": "£84.00",
+      "note": "(Merlin)"
+     }
+    ],
+    [
+     "Arrows",
+     "When your draw weight changes the spine you need",
+     "8 Easton XX75 Platinum Plus, made to your length",
+     {
+      "text": "£63.76–£85.52",
+      "note": "(Merlin)"
+     }
+    ],
+    [
+     "Total",
+     "",
+     "",
+     "about £245–£300"
     ]
    ]
   }
