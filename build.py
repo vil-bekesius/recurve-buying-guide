@@ -69,14 +69,13 @@ def render_page(stem, title, body):
         current = ' aria-current="page"' if s == stem else ""
         links.append(f'<a href="{href}"{current}>{esc(label)}</a>')
     nav = "".join(links)
-    checked = esc(DATA["checked"])
     return f"""<!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{"UK Olympic Recurve Buying Guide" if stem == "index" else esc(title) + " | UK Olympic Recurve Buying Guide"}</title>
-<meta name="description" content="Independent guide to buying Olympic recurve archery equipment from reputable UK shops, from first kit to international level.">
+<meta name="description" content="An opinionated guide to buying Olympic recurve archery equipment in the UK, from your first bow to club competition kit.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -88,8 +87,7 @@ def render_page(stem, title, body):
 {body}
 </main>
 <footer>
-  <p>Prices checked {checked}. Prices and stock change often: confirm with the shop before you travel.
-  Independent guide: no affiliate links, no sponsorship.</p>
+  <p>Independent guide: no affiliate links, no sponsorship.</p>
 </footer>
 </body>
 </html>
@@ -111,7 +109,6 @@ def build():
             return render_table(m.group(1))
 
         body = re.sub(r"\{\{table:([\w-]+)\}\}", table, body)
-        body = body.replace("{{checked}}", esc(DATA["checked"]))
         (OUT / f"{stem}.html").write_text(render_page(stem, title, body), encoding="utf-8")
     unused = set(DATA["tables"]) - used
     if unused:
