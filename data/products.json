@@ -10,7 +10,7 @@
     [
      "Riser",
      {
-      "text": "CNC-machined intermediate riser from Mybo or WNS"
+      "text": "Intermediate-level riser: see The riser above"
      }
     ],
     [
@@ -52,7 +52,7 @@
     [
      "Long rod",
      {
-      "text": "Epic long rod: good value. Choose one from a range that also sells a matching extender, V-bar and side rods"
+      "text": "Epic long rod (good value)"
      }
     ],
     [
@@ -188,7 +188,7 @@
      }
     ]
    ],
-   "caption": "Better limbs, once your draw weight has been stable for at least six months. Brands in the order I recommend them: Uukha, WNS, then Kinetic. Other options follow; I have little experience with Fivics and Hoyt"
+   "caption": "Brands in the order I recommend them: Uukha, WNS, then Kinetic. Other options follow; I have little experience with Fivics and Hoyt"
   },
   "mid-upgrades": {
    "caption": "Upgrades in the order most archers need them",
@@ -217,6 +217,11 @@
      "Arrows",
      "As you improve your limbs and start shooting longer distances",
      "Cheap aluminium-carbon arrows, such as Merlin Alimax or Pandarus CA320, spined for your new draw weight"
+    ],
+    [
+     "Riser",
+     "Only if you started on a budget riser",
+     "See Risers below"
     ]
    ]
   }
