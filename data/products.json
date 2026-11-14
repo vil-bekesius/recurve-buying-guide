@@ -1,31 +1,5 @@
 {
  "tables": {
-  "starter-packages": {
-   "columns": [
-    "Package",
-    "What's included"
-   ],
-   "rows": [
-    [
-     {
-      "text": "Core Arios Ext riser + Kinetic Engage limbs bow set"
-     },
-     "The most complete starter package found: 25\" riser, wood limbs, string, rest, sight, Avalon Tec One button, long rod, side rods and V-bar, tab, armguard, quiver, stringer, stand, backpack and 8 Easton Jazz arrows"
-    ],
-    [
-     {
-      "text": "SF NEO riser + WNS Delta F2 limbs kit"
-     },
-     "SF NEO 25\" riser, WNS Delta F2 limbs, string, Hoyt Super Pro rest, WNS SPR-100 sight, long rod, stand, quiver, tab, sling, armguard and backpack. No pressure button or arrows"
-    ],
-    [
-     {
-      "text": "Kinetic Vygo complete bow"
-     },
-     "Riser, limbs, string, rest, button and stringer only. Add a sight, arrows and accessories"
-    ]
-   ]
-  },
   "starter-build": {
    "caption": "Example build",
    "columns": [
@@ -42,7 +16,7 @@
     [
      "Limbs",
      {
-      "text": "Mybo Luna foam core, 22–26 lb"
+      "text": "Budget ILF limbs, 22–26 lb"
      }
     ],
     [
@@ -141,29 +115,6 @@
      "Sight",
      {
       "text": "Avalon Classic Alu recurve sight"
-     }
-    ]
-   ]
-  },
-  "starter-upgrades": {
-   "columns": [
-    "Upgrade",
-    "Why",
-    "Example"
-   ],
-   "rows": [
-    [
-     "Click-adjust sight",
-     "The most useful first upgrade: small, exact sight changes",
-     {
-      "text": "Bicaster Aura"
-     }
-    ],
-    [
-     "Tab with adjustable ledge and spacer",
-     "Helps you find the same anchor on every shot",
-     {
-      "text": "Avalon Tyro Basic"
      }
     ]
    ]
@@ -495,7 +446,7 @@
     [
      "Limbs",
      "Each time your draw weight goes up",
-     "Budget limbs at your new weight, such as Mybo Luna"
+     "Budget limbs at your new weight"
     ],
     [
      "Arrows",
