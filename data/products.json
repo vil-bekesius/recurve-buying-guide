@@ -43,7 +43,7 @@
       "text": "Kinetic Vygo Complete Bow (online only)"
      },
      "£179.81–£266.80",
-     "Riser, limbs, string, rest, button and stringer only, with a £25 voucher. Add a sight, arrows and accessories (see Option B)"
+     "Riser, limbs, string, rest, button and stringer only, with a £25 voucher. Add a sight, arrows and accessories"
     ]
    ]
   },
@@ -58,9 +58,10 @@
     [
      "Riser",
      {
-      "text": "Kinetic Vygo 25\" (ILF)"
+      "text": "Mybo Elite 25\" (ILF, CNC-machined)",
+      "note": "(sale; limited colours)"
      },
-     "£149.99"
+     "£250.00"
     ],
     [
      "Limbs",
@@ -163,7 +164,7 @@
     [
      "Total",
      "",
-     "£517.11–£538.87"
+     "£617.12–£638.88"
     ]
    ]
   },
@@ -178,18 +179,21 @@
     [
      "Riser",
      {
-      "text": "Kinetic Vygo 25\" riser"
+      "text": "WNS Quantum AX 25\" (CNC-machined)"
      },
-     "Clickers",
-     "£165.00"
+     "Merlin",
+     "from £272.57"
     ],
     [
      "Riser",
      {
-      "text": "Kinetic Vygo V2 25\" riser"
+      "text": "Mybo Wave XR 25\" (CNC-machined)"
      },
      "Merlin",
-     "£199.99"
+     {
+      "text": "£271.20",
+      "note": "(was £339)"
+     }
     ],
     [
      "Limbs",
@@ -914,16 +918,6 @@
    "rows": [
     [
      {
-      "text": "WNS Vantage AX"
-     },
-     {
-      "text": "£232.00",
-      "note": "(was £289.99)"
-     },
-     "Merlin"
-    ],
-    [
-     {
       "text": "Kinetic Sovren"
      },
      "£235.00",
@@ -1373,6 +1367,30 @@
      },
      "£54.95",
      "Chiltern (Merlin from £61.45)"
+    ]
+   ]
+  },
+  "starter-budget-risers": {
+   "columns": [
+    "Riser",
+    "Shop",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Kinetic Vygo 25\"",
+     "Merlin",
+     "£149.99"
+    ],
+    [
+     "Kinetic Vygo 25\"",
+     "Clickers",
+     "£165.00"
+    ],
+    [
+     "Kinetic Vygo V2 25\"",
+     "Merlin",
+     "£199.99"
     ]
    ]
   }
