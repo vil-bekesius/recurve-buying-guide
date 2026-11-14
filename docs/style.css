@@ -48,13 +48,11 @@ table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
 caption { text-align: left; font-weight: 600; padding-bottom: 0.4rem; }
 th, td { text-align: left; vertical-align: top; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); }
 th { background: var(--panel); }
-tr.total td { font-weight: 700; border-top: 2px solid var(--ink); }
 .note { color: var(--muted); font-size: 0.85em; }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .card { border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 6px; padding: 1rem; background: var(--panel); }
 .card h3 { margin-top: 0; }
-.card .price { font-size: 1.3rem; font-weight: 700; margin: 0.25rem 0; }
 .card a.more { font-weight: 600; }
 
 .callout { border-left: 4px solid var(--gold); background: var(--panel); padding: 0.75rem 1rem; margin: 1.25rem 0; }

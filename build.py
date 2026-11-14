@@ -22,11 +22,15 @@ PAGES = [
     ("before-you-buy", "Before you buy", "Before you buy"),
     ("starter", "Starter", "Starter kit"),
     ("intermediate", "Intermediate", "Intermediate kit"),
-    ("advanced", "Advanced", "Advanced kit"),
-    ("limbs-arrows", "Limbs & arrows", "Limbs, draw weight and arrows"),
     ("second-hand", "Second-hand", "Buying second-hand"),
     ("shops", "UK shops", "Recommended UK shops"),
 ]
+
+# Old pages that were merged into others: old URL -> new location
+REDIRECTS = {
+    "advanced": "intermediate.html#further-ahead",
+    "limbs-arrows": "intermediate.html#stepping-up",
+}
 
 
 def esc(s):
@@ -52,9 +56,7 @@ def render_table(table_id):
     head = "".join(f"<th>{esc(c)}</th>" for c in t["columns"])
     rows = []
     for r in t["rows"]:
-        first = r[0] if isinstance(r[0], str) else ""
-        cls = ' class="total"' if first.lower().startswith("total") else ""
-        rows.append(f"<tr{cls}>" + "".join(f"<td>{cell(c)}</td>" for c in r) + "</tr>")
+        rows.append("<tr>" + "".join(f"<td>{cell(c)}</td>" for c in r) + "</tr>")
     caption = f"<caption>{esc(t['caption'])}</caption>" if t.get("caption") else ""
     return (
         f'<div class="table-wrap"><table>{caption}<thead><tr>{head}</tr></thead>'
@@ -113,7 +115,14 @@ def build():
     unused = set(DATA["tables"]) - used
     if unused:
         print("Warning: tables not used on any page:", ", ".join(sorted(unused)))
-    print(f"Built {len(PAGES)} pages into {OUT}")
+    for old, new in REDIRECTS.items():
+        (OUT / f"{old}.html").write_text(
+            f'<!DOCTYPE html><meta charset="utf-8"><title>Moved</title>'
+            f'<meta http-equiv="refresh" content="0; url={new}">'
+            f'<link rel="canonical" href="{new}"><p>This page has moved: <a href="{new}">{new}</a></p>\n',
+            encoding="utf-8",
+        )
+    print(f"Built {len(PAGES)} pages and {len(REDIRECTS)} redirects into {OUT}")
 
 
 if __name__ == "__main__":

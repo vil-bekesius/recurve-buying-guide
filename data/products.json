@@ -34,7 +34,7 @@
     [
      "Pressure button",
      {
-      "text": "Shibuya DX Gold Tip"
+      "text": "Shibuya DX Gold Tip: worth buying from the start. Reliable, tunable, and many archers keep it for years"
      }
     ],
     [
@@ -46,7 +46,7 @@
     [
      "Sight",
      {
-      "text": "Avalon Classic Carbon recurve sight"
+      "text": "Avalon Classic Carbon, or an equivalent sight"
      }
     ],
     [
@@ -58,7 +58,7 @@
     [
      "Arrows",
      {
-      "text": "8 Easton XX75 Platinum Plus, made to your length"
+      "text": "8 Easton XX75 Platinum Plus aluminium, made to your length in the shop"
      }
     ],
     [
@@ -115,6 +115,18 @@
      "Sight",
      {
       "text": "Avalon Classic Alu recurve sight"
+     }
+    ],
+    [
+     "Riser (budget)",
+     {
+      "text": "Kinetic Vygo 25\""
+     }
+    ],
+    [
+     "Riser (budget)",
+     {
+      "text": "Kinetic Vygo V2 25\""
      }
     ]
    ]
@@ -177,19 +189,6 @@
     ]
    ],
    "caption": "Better limbs, once your draw weight has been stable for at least six months. Brands in the order I recommend them: Uukha, WNS, then Kinetic. Other options follow; I have little experience with Fivics and Hoyt"
-  },
-  "starter-budget-risers": {
-   "columns": [
-    "Riser"
-   ],
-   "rows": [
-    [
-     "Kinetic Vygo 25\""
-    ],
-    [
-     "Kinetic Vygo V2 25\""
-    ]
-   ]
   },
   "mid-upgrades": {
    "caption": "Upgrades in the order most archers need them",

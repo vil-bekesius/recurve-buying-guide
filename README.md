@@ -1,6 +1,6 @@
 # UK Olympic Recurve Buying Guide
 
-A static website with my opinions on buying Olympic recurve equipment in the UK at three levels (Starter, Intermediate and Advanced), plus a list of UK shops I recommend. It doesn't list prices: readers check those with the shops.
+A static website with my opinions on buying Olympic recurve equipment in the UK at two levels (Starter and Intermediate, with a look further ahead), plus a list of UK shops I recommend. It doesn't list prices: readers check those with the shops.
 
 **Live site:** https://vil-bekesius.github.io/recurve-buying-guide/
 
