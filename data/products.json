@@ -3,16 +3,12 @@
  "tables": {
   "starter-packages": {
    "columns": [
-    "Shop",
     "Package",
     "Price",
     "What's included"
    ],
    "rows": [
     [
-     {
-      "text": "Quicks Archery"
-     },
      {
       "text": "Core Arios Ext riser + Kinetic Engage limbs bow set"
      },
@@ -24,10 +20,7 @@
     ],
     [
      {
-      "text": "Clickers Archery"
-     },
-     {
-      "text": "Clickers Archery Intermediate recurve kit"
+      "text": "SF NEO riser + WNS Delta F2 limbs kit"
      },
      {
       "text": "from £420.85",
@@ -37,18 +30,15 @@
     ],
     [
      {
-      "text": "Merlin Archery"
-     },
-     {
-      "text": "Kinetic Vygo Complete Bow (online only)"
+      "text": "Kinetic Vygo complete bow"
      },
      "£179.81–£266.80",
      "Riser, limbs, string, rest, button and stringer only, with a £25 voucher. Add a sight, arrows and accessories"
     ]
    ]
   },
-  "starter-merlin": {
-   "caption": "Example build at Merlin Archery (accessory prices below the sight were checked in October 2026)",
+  "starter-build": {
+   "caption": "Example build (prices from one UK shop; accessory prices below the sight were checked in October 2026)",
    "columns": [
     "Part",
     "Product",
@@ -101,8 +91,7 @@
     [
      "Sight",
      {
-      "text": "Avalon Classic Carbon recurve sight",
-      "url": "https://www.merlinarchery.co.uk/avalon-classic-carbon-recurve-sight.html"
+      "text": "Avalon Classic Carbon recurve sight"
      },
      "£59.99"
     ],
@@ -173,7 +162,6 @@
    "columns": [
     "Part",
     "Product",
-    "Shop",
     "Price"
    ],
    "rows": [
@@ -182,7 +170,6 @@
      {
       "text": "WNS Quantum AX 25\" (CNC-machined)"
      },
-     "Merlin",
      "from £272.57"
     ],
     [
@@ -190,7 +177,6 @@
      {
       "text": "Mybo Wave XR 25\" (CNC-machined)"
      },
-     "Merlin",
      {
       "text": "£271.20",
       "note": "(was £339)"
@@ -201,7 +187,6 @@
      {
       "text": "Kinetic Honoric V2 carbon/foam ILF limbs"
      },
-     "Chiltern",
      {
       "text": "£104.50",
       "note": "(from search listing: confirm)"
@@ -212,7 +197,6 @@
      {
       "text": "Avalon Classic Alu recurve sight"
      },
-     "Merlin",
      "£48.86"
     ]
    ]
@@ -221,7 +205,7 @@
    "columns": [
     "Upgrade",
     "Why",
-    "Example at Merlin"
+    "Example"
    ],
    "rows": [
     [
@@ -250,16 +234,14 @@
   "mid-risers": {
    "columns": [
     "Riser (25\")",
-    "Price",
-    "Shop"
+    "Price"
    ],
    "rows": [
     [
      {
       "text": "Kinetic Sovren"
      },
-     "£235.00",
-     "Chiltern"
+     "£235.00"
     ],
     [
      {
@@ -268,15 +250,13 @@
      {
       "text": "£250.00",
       "note": "(sale; limited colours)"
-     },
-     "Merlin"
+     }
     ],
     [
      {
       "text": "WNS Quantum AX V2"
      },
-     "£269.95",
-     "Chiltern"
+     "£269.95"
     ],
     [
      {
@@ -285,122 +265,105 @@
      {
       "text": "£271.20",
       "note": "(was £339)"
-     },
-     "Merlin"
+     }
     ],
     [
      {
       "text": "WNS Quantum AX"
      },
-     "from £272.57",
-     "Merlin"
+     "from £272.57"
     ],
     [
      {
       "text": "Kinetic Elezo"
      },
-     "£299.50",
-     "Chiltern"
+     "£299.50"
     ],
     [
      {
       "text": "Hoyt RCRV Podium"
      },
-     "£320.00",
-     "Chiltern (Quicks £330, on backorder)"
+     "£320.00"
     ],
     [
      {
       "text": "Fivics Vellator 2026"
      },
-     "£329.95–£349.95",
-     "Chiltern"
+     "£329.95–£349.95"
     ],
     [
      {
       "text": "Gillo GX2"
      },
-     "£354.00",
-     "Quicks (Chiltern £389.50)"
+     "£354.00"
     ],
     [
      {
       "text": "Gillo GT"
      },
-     "£589.20",
-     "Quicks (Clickers £599)"
+     "£589.20"
     ],
     [
      {
       "text": "W&W Wiawis ATF-DX"
      },
-     "£652.50",
-     "Chiltern (Quicks £719.88)"
+     "£652.50"
     ]
    ]
   },
   "mid-limbs": {
    "columns": [
     "Limbs (ILF)",
-    "Price",
-    "Shop"
+    "Price"
    ],
    "rows": [
     [
      {
       "text": "Kinetic Astonix carbon/foam"
      },
-     "£119.99",
-     "Merlin (Quicks £149.40)"
+     "£119.99"
     ],
     [
      {
       "text": "Mybo Arca carbon/foam"
      },
-     "£129.00",
-     "Merlin"
+     "£129.00"
     ],
     [
      {
       "text": "WNS Procyon 2 C5 foam"
      },
-     "£149.95",
-     "Chiltern (Clickers Procyon C5 £192)"
+     "£149.95"
     ],
     [
      {
       "text": "WNS SF Trinity 2 C6 foam"
      },
-     "£189.95",
-     "Chiltern"
+     "£189.95"
     ],
     [
      {
       "text": "Kinetic Fury 3K carbon/foam"
      },
-     "£209.50",
-     "Chiltern"
+     "£209.50"
     ],
     [
      {
       "text": "Fivics Vellator V3"
      },
-     "£220.00–£240.00",
-     "Chiltern (Merlin £240)"
+     "£220.00–£240.00"
     ],
     [
      {
       "text": "Hoyt RCRV Podium Grand Prix"
      },
-     "£270.00",
-     "Chiltern (Quicks £271.20, mostly backorder)"
+     "£270.00"
     ],
     [
      {
       "text": "Gillo GTL Q5 carbon/foam"
      },
-     "£298.80",
-     "Quicks"
+     "£298.80"
     ],
     [
      {
@@ -409,15 +372,13 @@
      {
       "text": "£349.99",
       "note": "(was £499.99; limited weights)"
-     },
-     "Merlin"
+     }
     ],
     [
      {
       "text": "Uukha U5 Yangi"
      },
-     "£374.50",
-     "Chiltern"
+     "£374.50"
     ]
    ]
   },
@@ -425,8 +386,7 @@
    "columns": [
     "Product",
     "Includes",
-    "Price",
-    "Shop"
+    "Price"
    ],
    "rows": [
     [
@@ -434,40 +394,35 @@
       "text": "Cartel Maxion stabiliser set"
      },
      "Long rod, 2 side rods, V-bar",
-     "£58.00",
-     "Quicks"
+     "£58.00"
     ],
     [
      {
       "text": "Avalon Tec 22mm stabiliser set"
      },
      "Long rod, 2 side rods, extender, V-bar",
-     "£87.50",
-     "Chiltern"
+     "£87.50"
     ],
     [
      {
       "text": "WNS SAT carbon stabiliser set"
      },
      "Long rod, 2 side rods, extender, V-bar",
-     "£88.07",
-     "Quicks"
+     "£88.07"
     ],
     [
      {
       "text": "Shibuya Versa long and short rods"
      },
      "Rods only; add a V-bar such as the Shibuya Primus (£39.95)",
-     "£109.95 long, £59.95 short",
-     "Chiltern"
+     "£109.95 long, £59.95 short"
     ],
     [
      {
       "text": "Shibuya Vanquish long rod"
      },
      "Long rod only; top of the intermediate range",
-     "£255.00",
-     "Chiltern (Merlin from £264.52)"
+     "£255.00"
     ]
    ]
   },
@@ -475,8 +430,7 @@
    "columns": [
     "Type",
     "Product",
-    "Price",
-    "Shop"
+    "Price"
    ],
    "rows": [
     [
@@ -484,40 +438,35 @@
      {
       "text": "Bicaster Aura"
      },
-     "£54.95",
-     "Chiltern (Merlin £63.17)"
+     "£54.95"
     ],
     [
      "Sight",
      {
       "text": "Decut Sius RE"
      },
-     "£78.00",
-     "Quicks"
+     "£78.00"
     ],
     [
      "Sight",
      {
       "text": "Avalon Tec Maxx Carbon"
      },
-     "£99.89",
-     "Merlin"
+     "£99.89"
     ],
     [
      "Sight",
      {
       "text": "Shibuya Dual Click"
      },
-     "£109.50",
-     "Chiltern (Quicks £114)"
+     "£109.50"
     ],
     [
      "Sight",
      {
       "text": "Avalon Powr DLX Carbon"
      },
-     "£139.95",
-     "Chiltern (Quicks £144.60)"
+     "£139.95"
     ],
     [
      "Sight",
@@ -527,64 +476,56 @@
      {
       "text": "£237.50",
       "note": "(was £279.50)"
-     },
-     "Chiltern (Merlin £279.98)"
+     }
     ],
     [
      "Button",
      {
       "text": "Avalon Tec Maxx Micro-Click"
      },
-     "£26.50",
-     "Chiltern"
+     "£26.50"
     ],
     [
      "Button",
      {
       "text": "Shibuya DX Gold Tip"
      },
-     "£26.95",
-     "Chiltern (Merlin £28.99)"
+     "£26.95"
     ],
     [
      "Button",
      {
       "text": "Spigarelli Micro Click"
      },
-     "£42.50",
-     "Chiltern"
+     "£42.50"
     ],
     [
      "Clicker",
      {
       "text": "Beiter Standard"
      },
-     "£10.95",
-     "Chiltern"
+     "£10.95"
     ],
     [
      "Clicker",
      {
       "text": "Win & Win Wiawis ACS Carbon"
      },
-     "£25.50",
-     "Chiltern"
+     "£25.50"
     ],
     [
      "Clicker",
      {
       "text": "AAE Magnetic"
      },
-     "£37.90",
-     "Merlin"
+     "£37.90"
     ],
     [
      "Clicker",
      {
       "text": "AAE Gold Extended"
      },
-     "£45.95",
-     "Chiltern"
+     "£45.95"
     ]
    ]
   },
@@ -592,8 +533,7 @@
    "columns": [
     "Type",
     "Product",
-    "Price",
-    "Shop"
+    "Price"
    ],
    "rows": [
     [
@@ -601,79 +541,64 @@
      {
       "text": "Nitro single colour"
      },
-     "£18.95",
-     "Chiltern"
+     "£18.95"
     ],
     [
      "String",
      {
       "text": "GAS 8125 recurve string"
      },
-     "£44.95",
-     "Chiltern"
+     "£44.95"
     ],
     [
      "Tab",
      {
       "text": "AAE Elite Super Leather"
      },
-     "£32.50",
-     "Chiltern"
+     "£32.50"
     ],
     [
      "Tab",
      {
       "text": "Win & Win Wiawis 360 Cordovan"
      },
-     "£39.50",
-     "Chiltern"
+     "£39.50"
     ],
     [
      "Tab",
      {
       "text": "Shibuya Apex"
      },
-     "from £44.95",
-     "Chiltern / Merlin"
+     "from £44.95"
     ],
     [
      "Tab",
      {
       "text": "Fivics Saker"
      },
-     "£54.95",
-     "Chiltern"
+     "£54.95"
     ],
     [
      "Tab",
      {
       "text": "Bicaster LOG"
      },
-     "£54.95",
-     "Chiltern (Merlin from £61.45)"
+     "£54.95"
     ]
    ]
   },
   "starter-budget-risers": {
    "columns": [
     "Riser",
-    "Shop",
     "Price"
    ],
    "rows": [
     [
      "Kinetic Vygo 25\"",
-     "Merlin",
      "£149.99"
     ],
     [
-     "Kinetic Vygo 25\"",
-     "Clickers",
-     "£165.00"
-    ],
-    [
      "Kinetic Vygo V2 25\"",
-     "Merlin",
      "£199.99"
     ]
    ]
@@ -692,8 +617,7 @@
      "When your coach says your form is consistent",
      "Beiter Standard clicker",
      {
-      "text": "£10.95",
-      "note": "(Chiltern)"
+      "text": "£10.95"
      }
     ],
     [
@@ -701,8 +625,7 @@
      "As soon as you can: it lasts for years",
      "Shibuya DX Gold Tip",
      {
-      "text": "£26.95",
-      "note": "(Chiltern; Merlin £28.99)"
+      "text": "£26.95"
      }
     ],
     [
@@ -719,8 +642,7 @@
      "Each time your draw weight goes up",
      "Budget limbs at your new weight, such as Mybo Luna",
      {
-      "text": "£84.00",
-      "note": "(Merlin)"
+      "text": "£84.00"
      }
     ],
     [
@@ -728,8 +650,7 @@
      "When your draw weight changes the spine you need",
      "8 Easton XX75 Platinum Plus, made to your length",
      {
-      "text": "£63.76–£85.52",
-      "note": "(Merlin)"
+      "text": "£63.76–£85.52"
      }
     ],
     [

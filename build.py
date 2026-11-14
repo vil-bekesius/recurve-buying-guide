@@ -25,7 +25,7 @@ PAGES = [
     ("advanced", "Advanced", "Advanced kit"),
     ("limbs-arrows", "Limbs & arrows", "Limbs, draw weight and arrows"),
     ("second-hand", "Second-hand", "Buying second-hand"),
-    ("shops", "UK shops", "Reputable UK shops"),
+    ("shops", "UK shops", "Recommended UK shops"),
 ]
 
 
