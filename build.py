@@ -87,6 +87,17 @@ SCRIPT = """<script>
   var bar = document.querySelector(".tabs-inner");
   var tab = bar && bar.querySelector("[aria-current]");
   if (tab) bar.scrollLeft = tab.offsetLeft - (bar.clientWidth - tab.offsetWidth) / 2;
+  // "Print checklist" prints only the checklist (see the print rules in style.css).
+  document.querySelectorAll("button.print-checklist").forEach(function (button) {
+    button.hidden = false;
+    button.addEventListener("click", function () {
+      document.body.classList.add("checklist-only");
+      window.print();
+    });
+  });
+  window.addEventListener("afterprint", function () {
+    document.body.classList.remove("checklist-only");
+  });
   // Remember ticked checklist items on this device.
   document.querySelectorAll(".checklist input").forEach(function (box) {
     var key = "checklist:" + box.parentNode.textContent.trim();

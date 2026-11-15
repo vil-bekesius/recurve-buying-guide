@@ -147,6 +147,13 @@ tbody tr:last-child td { border-bottom: 0; }
 
 .reviewed { margin: 2.5rem 0 0; color: var(--muted); font-size: 0.9rem; }
 
+button.print-checklist {
+  margin-left: 0.5rem; padding: 0.35rem 0.8rem; cursor: pointer;
+  color: var(--ink); font: inherit; font-size: 0.9rem; font-weight: 600;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+}
+button.print-checklist:hover { border-color: var(--gold); }
+
 /* Previous / next */
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 1rem; padding-top: 1.75rem; border-top: 1px solid var(--line); }
 .pager a { padding: 0.8rem 1rem; font-weight: 600; }
@@ -189,4 +196,9 @@ footer p { margin: 0; }
   a { text-decoration: none; }
   h2 { break-after: avoid; }
   .checklist li, tr { break-inside: avoid; }
+  button.print-checklist { display: none; }
+  /* The "Print checklist" button: print the checklist and nothing else */
+  body.checklist-only main > * { display: none; }
+  body.checklist-only main > #checklist { display: block; border: 0; margin-top: 0; padding-top: 0; }
+  body.checklist-only main > .checklist { display: grid; }
 }
