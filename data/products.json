@@ -9,81 +9,55 @@
    "rows": [
     [
      "Riser",
-     {
-      "text": "Intermediate-level riser: see The riser above"
-     }
+     "Intermediate-level riser: see The riser above"
     ],
     [
      "Limbs",
-     {
-      "text": "Budget ILF limbs, 22–26 lb"
-     }
+     "Budget ILF limbs, 22–26 lb"
     ],
     [
      "String",
-     {
-      "text": "Any 8125 string; Reign recommended"
-     }
+     "Any 8125 string; Reign recommended"
     ],
     [
      "Arrow rest",
-     {
-      "text": "Any magnetic or stick-on arrow rest"
-     }
+     "Any magnetic or stick-on arrow rest"
     ],
     [
      "Pressure button",
-     {
-      "text": "Shibuya DX Gold Tip: worth buying from the start. Reliable, tunable, and many archers keep it for years"
-     }
+     "Shibuya DX Gold Tip: worth buying from the start. Reliable, tunable, and many archers keep it for years"
     ],
     [
      "Bow stringer",
-     {
-      "text": "Any bow stringer"
-     }
+     "Any bow stringer"
     ],
     [
      "Sight",
-     {
-      "text": "Avalon Classic Carbon, or an equivalent sight"
-     }
+     "Avalon Classic Carbon, or an equivalent sight"
     ],
     [
      "Long rod",
-     {
-      "text": "Epic long rod (good value)"
-     }
+     "Epic long rod (good value)"
     ],
     [
      "Arrows",
-     {
-      "text": "8 Easton XX75 Platinum Plus aluminium, made to your length in the shop"
-     }
+     "8 Easton XX75 Platinum Plus aluminium, made to your length in the shop"
     ],
     [
      "Finger tab",
-     {
-      "text": "Tab with an adjustable ledge, fitted to your hand in the shop"
-     }
+     "Tab with an adjustable ledge, fitted to your hand in the shop"
     ],
     [
      "Armguard",
-     {
-      "text": "Beiter armguard"
-     }
+     "Beiter armguard"
     ],
     [
      "Sling",
-     {
-      "text": "Finger sling: a flat shoelace is usually the better option"
-     }
+     "Finger sling: a flat shoelace is usually the better option"
     ],
     [
      "Quiver, bow stand and case",
-     {
-      "text": "Your choice: research what fits your budget. Avalon Classic is a good starting point"
-     }
+     "Your choice: research what fits your budget. Avalon Classic is a good starting point"
     ]
    ]
   },
@@ -95,15 +69,11 @@
    "rows": [
     [
      "Limbs",
-     {
-      "text": "Kinetic Honoric V2 carbon/foam ILF limbs"
-     }
+     "Kinetic Honoric V2 carbon/foam ILF limbs"
     ],
     [
      "Sight",
-     {
-      "text": "Avalon Classic Alu recurve sight"
-     }
+     "Avalon Classic Alu recurve sight"
     ]
    ]
   },
@@ -113,9 +83,7 @@
    ],
    "rows": [
     [
-     {
-      "text": "Uukha Alpha"
-     }
+     "Uukha Alpha"
     ],
     [
      {
@@ -124,44 +92,28 @@
      }
     ],
     [
-     {
-      "text": "WNS Procyon 2 C5 foam"
-     }
+     "WNS Procyon 2 C5 foam"
     ],
     [
-     {
-      "text": "WNS SF Trinity 2 C6 foam"
-     }
+     "WNS SF Trinity 2 C6 foam"
     ],
     [
-     {
-      "text": "Kinetic Astonix carbon/foam"
-     }
+     "Kinetic Astonix carbon/foam"
     ],
     [
-     {
-      "text": "Kinetic Fury 3K carbon/foam"
-     }
+     "Kinetic Fury 3K carbon/foam"
     ],
     [
-     {
-      "text": "Mybo Arca carbon/foam"
-     }
+     "Mybo Arca carbon/foam"
     ],
     [
-     {
-      "text": "Mybo Synergy 360"
-     }
+     "Mybo Synergy 360"
     ],
     [
-     {
-      "text": "Fivics Vellator V3"
-     }
+     "Fivics Vellator V3"
     ],
     [
-     {
-      "text": "Hoyt RCRV Podium Grand Prix"
-     }
+     "Hoyt RCRV Podium Grand Prix"
     ]
    ],
    "caption": "Brands in the order I recommend them: Uukha, WNS, then Kinetic. Other options follow; I have little experience with Fivics and Hoyt"
@@ -209,51 +161,35 @@
    ],
    "rows": [
     [
-     {
-      "text": "Mybo Elite 25\" (CNC-machined)"
-     },
+     "Mybo Elite 25\" (CNC-machined)",
      "Intermediate: recommended"
     ],
     [
-     {
-      "text": "Mybo Wave XR 25\" (CNC-machined)"
-     },
+     "Mybo Wave XR 25\" (CNC-machined)",
      "Intermediate: recommended"
     ],
     [
-     {
-      "text": "WNS Quantum AX 25\" (CNC-machined)"
-     },
+     "WNS Quantum AX 25\" (CNC-machined)",
      "Intermediate: recommended"
     ],
     [
-     {
-      "text": "Kinetic Novius V2 25\""
-     },
+     "Kinetic Novius V2 25\"",
      "Budget alternative"
     ],
     [
-     {
-      "text": "Kinetic Valenz V2 25\""
-     },
+     "Kinetic Valenz V2 25\"",
      "Budget alternative"
     ],
     [
-     {
-      "text": "Kinetic Evolium 25\""
-     },
+     "Kinetic Evolium 25\"",
      "Budget alternative"
     ],
     [
-     {
-      "text": "Kinetic Vygo V2 25\""
-     },
+     "Kinetic Vygo V2 25\"",
      "Wildcard: if you're undecided between Olympic recurve and barebow"
     ],
     [
-     {
-      "text": "Kinetic Vygo 25\" (original)"
-     },
+     "Kinetic Vygo 25\" (original)",
      "Wildcard: as the V2, and even cheaper"
     ]
    ]
