@@ -141,10 +141,8 @@ tbody tr:last-child td { border-bottom: 0; }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.75rem; margin: 1.25rem 0; }
 
-/* Checklist with tick boxes */
-.checklist { list-style: none; padding: 0; margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); column-gap: 1.5rem; }
-.checklist li { margin: 0; border-bottom: 1px solid var(--line); }
-.checklist label { display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.7rem 0.25rem; cursor: pointer; }
+/* Kit list: a table with a tick box on each row */
+.checklist label { display: flex; align-items: flex-start; gap: 0.7rem; cursor: pointer; }
 .checklist input { flex: none; width: 1.25rem; height: 1.25rem; margin: 0.2rem 0 0; accent-color: var(--gold); }
 .checklist input:checked + span { color: var(--muted); text-decoration: line-through; }
 
@@ -179,6 +177,7 @@ footer p { margin: 0; }
   table.stack td { display: block; padding: 0; border: 0; }
   table.stack td:first-child { font-size: 1.05rem; }
   table.stack td + td { margin-top: 0.5rem; }
+  table.stack td:empty { display: none; }
   table.stack td + td::before {
     content: attr(data-label); display: block;
     color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
@@ -198,10 +197,10 @@ footer p { margin: 0; }
   .callout, .rules { box-shadow: none; }
   a { text-decoration: none; }
   h2 { break-after: avoid; }
-  .checklist li, tr { break-inside: avoid; }
+  tr { break-inside: avoid; }
   button.print-checklist { display: none; }
   /* The "Print checklist" button: print the checklist and nothing else */
   body.checklist-only main > * { display: none; }
   body.checklist-only main > #checklist { display: block; border: 0; margin-top: 0; padding-top: 0; }
-  body.checklist-only main > .checklist { display: grid; }
+  body.checklist-only main > .checklist { display: block; }
 }

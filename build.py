@@ -8,7 +8,7 @@ data/products.json and are inserted where a fragment contains
     python3 build.py --serve    build, then preview at http://localhost:8000
 
 The build also adds, to every page: the header and tab bar, an "On this page"
-list on longer pages, tick boxes on the checklist, and previous/next links.
+list on longer pages, tick boxes on the kit list, and previous/next links.
 
 It stops with a clear message, and leaves docs/ untouched, if a page asks for
 a table that doesn't exist, an internal link or #anchor points nowhere, or two
@@ -45,10 +45,10 @@ PAGES = [
      "your first bow, the upgrades worth making, and the shops I use."),
     ("before-you-buy", "Before you buy", "Before you buy",
      "When to buy your first recurve bow, how to prepare for a shop fitting, "
-     "where to spend and save, and a printable shopping checklist."),
+     "and where to spend and save."),
     ("starter", "Starter", "Starter kit",
      "A first Olympic recurve kit: which riser to buy, 22–26 lb first limbs, "
-     "an example build, arrows and stabilisers."),
+     "a printable kit list, arrows and stabilisers."),
     ("intermediate", "Intermediate", "Intermediate kit",
      "What to upgrade after your first recurve bow, and when: clicker, stabilisers, "
      "limbs and aluminium-carbon arrows, plus a look further ahead."),
@@ -70,7 +70,6 @@ TOC_MIN_WORDS = 500  # shorter pages get no "On this page" list
 TABLE_TAG = re.compile(r"\{\{table:([\w-]+)\}\}")
 H2 = re.compile(r'<h2(?: id="([^"]+)")?>(.*?)</h2>', re.S)
 LEAD = re.compile(r'<p class="lead">.*?</p>', re.S)
-CHECKLIST = re.compile(r'(<ul class="checklist">)(.*?)(</ul>)', re.S)
 
 # Target-face mark: the header logo and the favicon.
 MARK = (
@@ -173,21 +172,31 @@ def cell(value):
 
 def render_table(table):
     columns = table["columns"]
+    tick = table.get("tick")  # a tick box in front of each row's first cell
     stack = len(columns) >= 3  # wide tables become stacked cards on phones
     head = "".join(f"<th>{esc(c)}</th>" for c in columns)
+
+    def td(col, value, first):
+        inner = cell(value)
+        if tick and first:
+            inner = f'<label><input type="checkbox"><span>{inner}</span></label>'
+        label = f' data-label="{esc(col)}"' if stack else ""
+        return f"<td{label}>{inner}</td>"
+
     rows = "".join(
         "<tr>"
         + "".join(
-            f'<td data-label="{esc(col)}">{cell(c)}</td>' if stack else f"<td>{cell(c)}</td>"
-            for col, c in zip(columns, row)
+            td(col, c, first=(i == 0))
+            for i, (col, c) in enumerate(zip(columns, row))
         )
         + "</tr>"
         for row in table["rows"]
     )
     caption = f"<caption>{esc(table['caption'])}</caption>" if table.get("caption") else ""
     cls = ' class="stack"' if stack else ""
+    wrap = "table-wrap checklist" if tick else "table-wrap"
     return (
-        f'<div class="table-wrap"><table{cls}>{caption}'
+        f'<div class="{wrap}"><table{cls}>{caption}'
         f"<thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>"
     )
 
@@ -214,21 +223,6 @@ def add_toc(body, name, problems):
     links = "".join(f'<li><a href="#{anchor}">{label}</a></li>' for anchor, label in sections)
     toc = f'<details class="toc"><summary>On this page</summary><ol>{links}</ol></details>'
     return LEAD.sub(lambda m: f"{m.group(0)}\n{toc}", body, count=1)
-
-
-def add_checkboxes(body):
-    """Turn each checklist item into a tick box."""
-
-    def boxes(match):
-        items = re.sub(
-            r"<li>(.*?)</li>",
-            r'<li><label><input type="checkbox"><span>\1</span></label></li>',
-            match.group(2),
-            flags=re.S,
-        )
-        return match.group(1) + items + match.group(3)
-
-    return CHECKLIST.sub(boxes, body)
 
 
 def last_reviewed(stem):
@@ -381,7 +375,7 @@ def render_site():
             return render_table(tables[table_id])
 
         body = TABLE_TAG.sub(table, source.read_text(encoding="utf-8"))
-        body = add_checkboxes(add_toc(body, f"{stem}.html", problems))
+        body = add_toc(body, f"{stem}.html", problems)
         pages[f"{stem}.html"] = render_page(index, body, css_href)
     for old, target in REDIRECTS.items():
         pages[f"{old}.html"] = render_redirect(target)

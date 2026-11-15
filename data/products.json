@@ -1,69 +1,5 @@
 {
  "tables": {
-  "starter-build": {
-   "caption": "Example build",
-   "columns": [
-    "Part",
-    "Product"
-   ],
-   "rows": [
-    [
-     "Riser",
-     {
-      "text": "Intermediate-level riser: see The riser",
-      "href": "#riser"
-     }
-    ],
-    [
-     "Limbs",
-     "Budget ILF limbs, 22–26 lb"
-    ],
-    [
-     "String",
-     "Any 8125 string; Reign recommended"
-    ],
-    [
-     "Arrow rest",
-     "Any magnetic or stick-on arrow rest"
-    ],
-    [
-     "Pressure button",
-     "Shibuya DX Gold Tip: worth buying from the start. Reliable, tunable, and many archers keep it for years"
-    ],
-    [
-     "Bow stringer",
-     "Any bow stringer"
-    ],
-    [
-     "Sight",
-     "Avalon Classic Carbon, or an equivalent sight"
-    ],
-    [
-     "Long rod",
-     "Epic long rod (good value)"
-    ],
-    [
-     "Arrows",
-     "8 Easton XX75 Platinum Plus aluminium, made to your length in the shop"
-    ],
-    [
-     "Finger tab",
-     "Tab with an adjustable ledge, fitted to your hand in the shop"
-    ],
-    [
-     "Armguard",
-     "Beiter armguard"
-    ],
-    [
-     "Sling",
-     "Finger sling: a flat shoelace usually works better than a shop-bought sling"
-    ],
-    [
-     "Quiver, bow stand and case",
-     "Your choice: research what fits your budget. Avalon Classic is a good starting point"
-    ]
-   ]
-  },
   "mid-limbs": {
    "caption": "Better: buy once your draw weight is stable. Budget: buy while it is still going up.",
    "columns": [
@@ -187,6 +123,124 @@
       "note": "(cheaper than the V2)"
      },
      "Wildcard"
+    ]
+   ]
+  },
+  "starter-kit": {
+   "tick": true,
+   "columns": [
+    "Part",
+    "My pick",
+    "Optional"
+   ],
+   "rows": [
+    [
+     "Riser (ILF)",
+     {
+      "text": "Intermediate-level riser: see The riser",
+      "href": "#riser"
+     },
+     ""
+    ],
+    [
+     "Limbs (ILF)",
+     "Budget ILF limbs, 22–26 lb",
+     ""
+    ],
+    [
+     "String",
+     "Any 8125 string; Reign recommended",
+     ""
+    ],
+    [
+     "Spare string",
+     "One string is enough; a second is a backup",
+     "Yes"
+    ],
+    [
+     "Arrow rest",
+     "Any magnetic or stick-on arrow rest",
+     ""
+    ],
+    [
+     "Pressure button (plunger)",
+     "Shibuya DX Gold Tip: worth buying from the start. Reliable, tunable, and many archers keep it for years",
+     ""
+    ],
+    [
+     "Clicker",
+     "You can buy it later",
+     "Yes"
+    ],
+    [
+     "Sight",
+     "Avalon Classic Carbon, or an equivalent sight",
+     ""
+    ],
+    [
+     "Long rod stabiliser",
+     "Epic long rod (good value)",
+     ""
+    ],
+    [
+     "Arrows",
+     "8 Easton XX75 Platinum Plus aluminium, made to your length in the shop",
+     ""
+    ],
+    [
+     "Spare nocks",
+     "",
+     ""
+    ],
+    [
+     "Finger tab",
+     "Tab with an adjustable ledge, fitted to your hand in the shop",
+     ""
+    ],
+    [
+     "Armguard",
+     "Beiter armguard",
+     ""
+    ],
+    [
+     "Finger sling",
+     "A flat shoelace usually works better than a shop-bought sling",
+     ""
+    ],
+    [
+     "Chest guard",
+     "",
+     "Yes"
+    ],
+    [
+     "Quiver and belt, bow stand, and case (rucksack or hard case)",
+     "Your choice: research what fits your budget. Avalon Classic is a good starting point",
+     ""
+    ],
+    [
+     "Bow stringer",
+     "Any bow stringer",
+     ""
+    ],
+    [
+     "Arrow puller",
+     "",
+     ""
+    ],
+    [
+     "Bracing height gauge (bow square)",
+     "",
+     ""
+    ],
+    [
+     "String wax",
+     "",
+     ""
+    ],
+    [
+     "Allen keys, metric and imperial",
+     "A good set: archery parts use both, and the keys supplied with parts are often soft",
+     ""
     ]
    ]
   }

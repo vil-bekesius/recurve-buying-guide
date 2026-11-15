@@ -17,7 +17,7 @@ docs/               generated site (not committed; GitHub builds it)
 .github/workflows/  builds and publishes the site on every push to gh-pages
 ```
 
-A page includes a table by writing `{{table:<id>}}`, where `<id>` is a key under `tables` in `data/products.json`. A table cell is a plain string, or `{"text": "...", "href": "...", "note": "..."}`: `href` links the text to another part of the site (for example `"#riser"` or `"starter.html#riser"`), and `note` adds a greyed note. Both are optional.
+A page includes a table by writing `{{table:<id>}}`, where `<id>` is a key under `tables` in `data/products.json`. A table cell is a plain string, or `{"text": "...", "href": "...", "note": "..."}`: `href` links the text to another part of the site (for example `"#riser"` or `"starter.html#riser"`), and `note` adds a greyed note. Both are optional. A table with `"tick": true` gets a tick box on each row (the kit list).
 
 ## Updating content
 
