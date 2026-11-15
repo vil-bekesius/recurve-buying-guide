@@ -20,7 +20,9 @@ import html
 import json
 import re
 import shutil
+import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 from urllib.parse import quote
 
@@ -179,6 +181,19 @@ def add_checkboxes(body):
     return CHECKLIST.sub(boxes, body)
 
 
+def last_reviewed(stem):
+    """A "Last reviewed" line from the last commit that touched the page's content file."""
+    try:
+        iso = subprocess.run(
+            ["git", "log", "-1", "--format=%cs", "--", f"content/{stem}.html"],
+            cwd=ROOT, capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        day = date.fromisoformat(iso)
+    except (OSError, subprocess.CalledProcessError, ValueError):
+        return ""  # no git, or the file has never been committed
+    return f'<p class="reviewed">Last reviewed <time datetime="{iso}">{day.day} {day:%B %Y}</time></p>\n'
+
+
 def render_pager(index):
     def link(i, cls, word):
         stem, _, title, _ = PAGES[i]
@@ -195,7 +210,8 @@ def render_pager(index):
 
 def render_page(index, body, css_href):
     stem, _, title, description = PAGES[index]
-    return page_shell(stem, title, description, f"{body}\n{render_pager(index)}", css_href)
+    body = f"{body}\n{last_reviewed(stem)}{render_pager(index)}"
+    return page_shell(stem, title, description, body, css_href)
 
 
 def render_404(css_href):
