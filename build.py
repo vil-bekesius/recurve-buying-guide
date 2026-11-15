@@ -57,6 +57,9 @@ PAGES = [
      "what to pay, and how to check risers and limbs."),
     ("shops", "UK shops", "Recommended UK shops",
      "UK archery shops I have used and been happy with."),
+    ("glossary", "Glossary", "Glossary",
+     "Plain-English definitions of recurve archery terms used in this guide: "
+     "limb pocket, brace height, nocking point, centre shot, spine and more."),
 ]
 
 # Old pages that were merged into others: old URL -> new location
