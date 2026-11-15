@@ -156,8 +156,13 @@ tbody tr:last-child td { border-bottom: 0; }
 footer { padding: 1.5rem 1rem 2.5rem; text-align: center; color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--line); }
 footer p { margin: 0; }
 
-/* Phones: three-column tables become stacked cards */
+/* Phones: the six tabs don't fit on one row, so they wrap onto two and
+   scroll away with the page; three-column tables become stacked cards */
 @media (max-width: 36rem) {
+  html { scroll-padding-top: 1rem; }
+  .tabs { position: static; }
+  .tabs-inner { flex-wrap: wrap; overflow-x: visible; gap: 0 0.15rem; }
+  .tabs a { padding: 0.5rem 0.55rem; }
   table.stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
   table.stack tr { display: block; padding: 0.85rem 1rem; border-bottom: 1px solid var(--line); }
   table.stack tr:last-child { border-bottom: 0; }
