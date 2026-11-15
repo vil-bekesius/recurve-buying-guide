@@ -112,9 +112,15 @@ def href(stem):
 
 
 def cell(value):
-    """A cell is a string, or {"text": ..., "note": ...} to add a greyed note."""
+    """A cell is a string, or {"text": ..., "href": ..., "note": ...}.
+
+    "href" links the text to another part of the site (checked like every other
+    internal link); "note" adds a greyed note after it. Both are optional.
+    """
     if isinstance(value, dict):
         text = esc(value["text"])
+        if value.get("href"):
+            text = f'<a href="{esc(value["href"])}">{text}</a>'
         if value.get("note"):
             text += f' <span class="note">{esc(value["note"])}</span>'
         return text

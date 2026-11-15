@@ -9,7 +9,10 @@
    "rows": [
     [
      "Riser",
-     "Intermediate-level riser: see The riser above"
+     {
+      "text": "Intermediate-level riser: see The riser",
+      "href": "#riser"
+     }
     ],
     [
      "Limbs",
@@ -144,7 +147,10 @@
     [
      "Riser",
      "Only if you started on an entry riser",
-     "See Risers below"
+     {
+      "text": "See Risers",
+      "href": "#risers"
+     }
     ]
    ]
   },
