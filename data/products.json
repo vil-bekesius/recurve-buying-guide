@@ -65,7 +65,7 @@
    ]
   },
   "mid-limbs": {
-   "caption": "Listed from most to least expensive. Brands I recommend, in order: Uukha, WNS, then Kinetic. I have little experience with Fivics and Hoyt",
+   "caption": "Better: buy once your draw weight is stable. Budget: buy while it is still going up.",
    "columns": [
     "Limbs (ILF)",
     "Grade"
@@ -73,46 +73,46 @@
    "rows": [
     [
      "Uukha Alpha",
-     "Better: once your draw weight is stable"
+     "Better"
     ],
     [
      "Mybo Synergy 360",
-     "Better: once your draw weight is stable"
+     "Better"
     ],
     [
      "Hoyt RCRV Podium Grand Prix",
-     "Better: once your draw weight is stable"
+     "Better"
     ],
     [
      {
       "text": "WNS SF Hyperion 2 G8",
       "note": "(very good value)"
      },
-     "Better: once your draw weight is stable"
+     "Better"
     ],
     [
      "Fivics Vellator V3",
-     "Better: once your draw weight is stable"
+     "Better"
     ],
     [
      "Kinetic Fury 3K carbon/foam",
-     "Better: once your draw weight is stable"
+     "Better"
     ],
     [
      "WNS SF Trinity 2 C6 foam",
-     "Budget: while your draw weight is going up"
+     "Budget"
     ],
     [
      "WNS Procyon 2 C5 foam",
-     "Budget: while your draw weight is going up"
+     "Budget"
     ],
     [
      "Mybo Arca carbon/foam",
-     "Budget: while your draw weight is going up"
+     "Budget"
     ],
     [
      "Kinetic Astonix carbon/foam",
-     "Budget: while your draw weight is going up"
+     "Budget"
     ]
    ]
   },
@@ -155,7 +155,7 @@
    ]
   },
   "starter-risers": {
-   "caption": "Risers for your first bow",
+   "caption": "Recommended: intermediate risers. Entry: cheaper alternatives. Wildcard: suits both Olympic recurve and barebow.",
    "columns": [
     "Riser",
     "Grade"
@@ -163,35 +163,38 @@
    "rows": [
     [
      "Mybo Elite 25\" (CNC-machined)",
-     "Intermediate: recommended"
+     "Recommended"
     ],
     [
      "Mybo Wave XR 25\" (CNC-machined)",
-     "Intermediate: recommended"
+     "Recommended"
     ],
     [
      "WNS Quantum AX 25\" (CNC-machined)",
-     "Intermediate: recommended"
+     "Recommended"
     ],
     [
      "Kinetic Novius V2 25\"",
-     "Entry-level alternative"
+     "Entry"
     ],
     [
      "Kinetic Valenz V2 25\"",
-     "Entry-level alternative"
+     "Entry"
     ],
     [
      "Kinetic Evolium 25\"",
-     "Entry-level alternative"
+     "Entry"
     ],
     [
      "Kinetic Vygo V2 25\"",
-     "Wildcard: if you're undecided between Olympic recurve and barebow"
+     "Wildcard"
     ],
     [
-     "Kinetic Vygo 25\" (original)",
-     "Wildcard: as the V2, and even cheaper"
+     {
+      "text": "Kinetic Vygo 25\" (original)",
+      "note": "(cheaper than the V2)"
+     },
+     "Wildcard"
     ]
    ]
   }
