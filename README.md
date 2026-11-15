@@ -34,6 +34,14 @@ A page includes a table by writing `{{table:<id>}}`, where `<id>` is a key under
 
 The build stops with a message, and leaves `docs/` as it was, if a page asks for a table that doesn't exist, or if an internal link or `#anchor` points nowhere. To add or remove a page, edit the `PAGES` list at the top of `build.py`.
 
+## Checking external links
+
+```bash
+python3 check_links.py
+```
+
+Run this by hand now and then. It checks the shop and marketplace links and is not part of the publish build.
+
 ## Licence and disclaimer
 
 Independent guide: no affiliate links or sponsorship.
