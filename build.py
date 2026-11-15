@@ -249,7 +249,8 @@ def page_shell(stem, title, description, body, css_href, base=""):
 
 def render_redirect(target):
     return (
-        '<!DOCTYPE html><meta charset="utf-8"><title>Moved</title>'
+        '<!DOCTYPE html><html lang="en-GB"><meta charset="utf-8"><title>Moved</title>'
+        '<meta name="robots" content="noindex">'
         f'<meta http-equiv="refresh" content="0; url={target}">'
         f'<link rel="canonical" href="{target}">'
         f'<p>This page has moved: <a href="{target}">{target}</a></p>\n'
