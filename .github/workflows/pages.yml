@@ -1,10 +1,10 @@
 # Builds the site with build.py and publishes it to GitHub Pages
-# whenever gh-pages is pushed.
+# whenever main is pushed.
 name: Build and publish site
 
 on:
   push:
-    branches: [gh-pages]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

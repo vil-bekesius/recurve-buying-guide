@@ -14,7 +14,7 @@ data/products.json  every product table
 style.css           site styles
 build.py            combines the above into docs/
 docs/               generated site (not committed; GitHub builds it)
-.github/workflows/  builds and publishes the site on every push to gh-pages
+.github/workflows/  builds and publishes the site on every push to main
 ```
 
 A page includes a table by writing `{{table:<id>}}`, where `<id>` is a key under `tables` in `data/products.json`. A table cell is a plain string, or `{"text": "...", "href": "...", "note": "..."}`: `href` links the text to another part of the site (for example `"#riser"` or `"starter.html#riser"`), and `note` adds a greyed note. Both are optional. A table with `"tick": true` gets a tick box on each row (the kit list).
@@ -30,7 +30,7 @@ A page includes a table by writing `{{table:<id>}}`, where `<id>` is a key under
 
    Then open http://localhost:8000. Leave out `--serve` to build without previewing.
 
-3. Commit your edits and push to `gh-pages`. GitHub runs `build.py` and republishes the site within a minute or two.
+3. Commit your edits and push to `main`. GitHub runs `build.py` and republishes the site within a minute or two.
 
 The build stops with a message, and leaves `docs/` as it was, if a page asks for a table that doesn't exist, or if an internal link or `#anchor` points nowhere. To add or remove a page, edit the `PAGES` list at the top of `build.py`.
 
