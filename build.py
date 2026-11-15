@@ -140,8 +140,14 @@ def render_table(table):
     )
 
 
-def add_toc(body):
+def add_toc(body, name, problems):
     """Give every <h2> an id, and add an "On this page" list to longer pages."""
+    unmatched = len(re.findall(r"<h2\b", body)) - len(H2.findall(body))
+    if unmatched:
+        problems.append(
+            f'{name}: {unmatched} <h2> tag(s) not written as <h2> or <h2 id="...">, '
+            "so they would get no anchor"
+        )
     sections = []
 
     def heading(match):
@@ -302,7 +308,7 @@ def render_site():
             return render_table(tables[table_id])
 
         body = TABLE_TAG.sub(table, source.read_text(encoding="utf-8"))
-        body = add_checkboxes(add_toc(body))
+        body = add_checkboxes(add_toc(body, f"{stem}.html", problems))
         pages[f"{stem}.html"] = render_page(index, body, css_href)
     for old, target in REDIRECTS.items():
         pages[f"{old}.html"] = render_redirect(target)
