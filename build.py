@@ -29,6 +29,7 @@ CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
 SITE = "UK Olympic Recurve Buying Guide"
+BASE_PATH = "/recurve-buying-guide/"  # where the site lives on GitHub Pages (used by the 404 page)
 
 # (file stem, tab label, page title, description for search results and link previews).
 # The order is the reading order used by the previous/next links.
@@ -188,6 +189,23 @@ def render_pager(index):
 
 def render_page(index, body, css_href):
     stem, _, title, description = PAGES[index]
+    return page_shell(stem, title, description, f"{body}\n{render_pager(index)}", css_href)
+
+
+def render_404(css_href):
+    body = (
+        "<h1>Page not found</h1>\n"
+        '<p class="lead">This page doesn\'t exist, or it has moved.</p>\n'
+        '<div class="cards"><a class="card" href="./"><strong>Go to the home page</strong>'
+        "<span>Start from the beginning of the guide.</span></a></div>"
+    )
+    # GitHub Pages serves this file for any missing address, so its links
+    # must be resolved from the site's root, not from the missing address.
+    base = f'<base href="{BASE_PATH}">\n'
+    return page_shell("404", "Page not found", "This page doesn't exist.", body, css_href, base)
+
+
+def page_shell(stem, title, description, body, css_href, base=""):
     tabs = "".join(
         '<a href="{}"{}>{}</a>'.format(
             href(s), ' aria-current="page"' if s == stem else "", esc(label)
@@ -199,7 +217,7 @@ def render_page(index, body, css_href):
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+{base}<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0d1117">
 <title>{full_title}</title>
@@ -219,7 +237,6 @@ def render_page(index, body, css_href):
 <nav class="tabs" aria-label="Site"><div class="tabs-inner">{tabs}</div></nav>
 <main id="main">
 {body}
-{render_pager(index)}
 </main>
 <footer>
   <p>Independent guide: no affiliate links, no sponsorship.</p>
@@ -250,8 +267,8 @@ def check_pages(pages):
             problems.append(f"{name}: id '{dup}' is used more than once")
     for name, text in pages.items():
         for link in re.findall(r'\bhref="([^"]+)"', text):
-            if re.match(r"[a-z][a-z0-9+.-]*:", link) or link.startswith("style.css"):
-                continue  # external link, data: URI or the stylesheet
+            if re.match(r"[a-z][a-z0-9+.-]*:", link) or link.startswith(("style.css", "/")):
+                continue  # external link, data: URI, the stylesheet, or the site root
             target, _, anchor = link.partition("#")
             target = "index.html" if target == "./" else target or name
             if target not in pages:
@@ -288,6 +305,7 @@ def render_site():
         pages[f"{stem}.html"] = render_page(index, body, css_href)
     for old, target in REDIRECTS.items():
         pages[f"{old}.html"] = render_redirect(target)
+    pages["404.html"] = render_404(css_href)
 
     problems += check_pages(pages)
     return pages, problems, sorted(set(tables) - used), css
