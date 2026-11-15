@@ -20,8 +20,10 @@ import html
 import json
 import re
 import shutil
+import struct
 import subprocess
 import sys
+import zlib
 from datetime import date
 from pathlib import Path
 from urllib.parse import quote
@@ -31,7 +33,9 @@ CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
 SITE = "UK Olympic Recurve Buying Guide"
+SITE_URL = "https://vil-bekesius.github.io/recurve-buying-guide/"  # the live address, for link previews
 BASE_PATH = "/recurve-buying-guide/"  # where the site lives on GitHub Pages (used by the 404 page)
+SHARE_IMAGE = "share.png"  # picture shown when a link to the site is shared
 
 # (file stem, tab label, page title, description for search results and link previews).
 # The order is the reading order used by the previous/next links.
@@ -79,6 +83,35 @@ MARK = (
     "</svg>"
 )
 FAVICON = "data:image/svg+xml," + quote(MARK)
+
+def share_image(width=1200, height=630):
+    """The target mark on the page background, as PNG bytes, for link previews."""
+    background = bytes.fromhex("0d1117")
+    rings = [(15.5, "f0f6fc"), (12.4, "0d1117"), (9.3, "58a6ff"), (6.2, "f85149"), (3.1, "e3b341")]
+    scale = height * 0.36 / 15.5  # the outer ring fills 72% of the height
+    cx, cy = width // 2, height // 2
+    rows = []
+    for y in range(height):
+        row = bytearray(background * width)
+        for radius, colour in rings:  # largest first, so smaller rings paint over it
+            half = (radius * scale) ** 2 - (y - cy) ** 2
+            if half > 0:
+                x0, x1 = round(cx - half**0.5), round(cx + half**0.5)
+                row[x0 * 3 : x1 * 3] = bytes.fromhex(colour) * (x1 - x0)
+        rows.append(b"\x00" + bytes(row))
+
+    def chunk(kind, data):
+        body = kind + data
+        return struct.pack(">I", len(data)) + body + struct.pack(">I", zlib.crc32(body))
+
+    header = struct.pack(">IIBBBBB", width, height, 8, 2, 0, 0, 0)
+    return (
+        b"\x89PNG\r\n\x1a\n"
+        + chunk(b"IHDR", header)
+        + chunk(b"IDAT", zlib.compress(b"".join(rows), 9))
+        + chunk(b"IEND", b"")
+    )
+
 
 # The only script on the site. Everything still works without it.
 SCRIPT = """<script>
@@ -245,6 +278,11 @@ def render_404(css_href):
 
 
 def page_shell(stem, title, description, body, css_href, base=""):
+    # Real pages state their own address; the 404 page has none.
+    address = ""
+    if not base:
+        url = SITE_URL + ("" if stem == "index" else f"{stem}.html")
+        address = f'<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n'
     tabs = "".join(
         '<a href="{}"{}>{}</a>'.format(
             href(s), ' aria-current="page"' if s == stem else "", esc(label)
@@ -265,7 +303,9 @@ def page_shell(stem, title, description, body, css_href, base=""):
 <meta property="og:site_name" content="{SITE}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}">
-<link rel="icon" href="{FAVICON}">
+<meta property="og:image" content="{SITE_URL}{SHARE_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+{address}<link rel="icon" href="{FAVICON}">
 <link rel="stylesheet" href="{css_href}">
 </head>
 <body>
@@ -361,6 +401,7 @@ def build():
     OUT.mkdir()
     (OUT / "style.css").write_bytes(css)
     (OUT / ".nojekyll").write_text("")
+    (OUT / SHARE_IMAGE).write_bytes(share_image())
     for name, text in pages.items():
         (OUT / name).write_text(text, encoding="utf-8")
 

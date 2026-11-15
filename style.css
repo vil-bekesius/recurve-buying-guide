@@ -32,6 +32,9 @@ a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 4px; }
 strong { font-weight: 600; }
 
+/* Text for screen readers only */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
 .skip { position: absolute; left: -999rem; }
 .skip:focus { left: 1rem; top: 1rem; z-index: 20; padding: 0.5rem 0.75rem; background: var(--surface); border-radius: var(--radius); }
 
