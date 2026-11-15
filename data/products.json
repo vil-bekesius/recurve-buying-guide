@@ -53,7 +53,7 @@
     ],
     [
      "Sling",
-     "Finger sling: a flat shoelace is usually the better option"
+     "Finger sling: a flat shoelace usually works better than a shop-bought sling"
     ],
     [
      "Quiver, bow stand and case",
@@ -78,45 +78,56 @@
    ]
   },
   "mid-limbs": {
+   "caption": "Listed from most to least expensive. Brands I recommend, in order: Uukha, WNS, then Kinetic. I have little experience with Fivics and Hoyt",
    "columns": [
-    "Limbs (ILF)"
+    "Limbs (ILF)",
+    "Grade"
    ],
    "rows": [
     [
-     "Uukha Alpha"
+     "Uukha Alpha",
+     "Better: once your draw weight is stable"
+    ],
+    [
+     "Mybo Synergy 360",
+     "Better: once your draw weight is stable"
     ],
     [
      {
-      "text": "WNS Hyperion",
+      "text": "WNS SF Hyperion 2 G8",
       "note": "(very good value)"
-     }
+     },
+     "Better: once your draw weight is stable"
     ],
     [
-     "WNS Procyon 2 C5 foam"
+     "Hoyt RCRV Podium Grand Prix",
+     "Better: once your draw weight is stable"
     ],
     [
-     "WNS SF Trinity 2 C6 foam"
+     "Fivics Vellator V3",
+     "Better: once your draw weight is stable"
     ],
     [
-     "Kinetic Astonix carbon/foam"
+     "Kinetic Fury 3K carbon/foam",
+     "Better: once your draw weight is stable"
     ],
     [
-     "Kinetic Fury 3K carbon/foam"
+     "WNS SF Trinity 2 C6 foam",
+     "Budget: while your draw weight is going up"
     ],
     [
-     "Mybo Arca carbon/foam"
+     "WNS Procyon 2 C5 foam",
+     "Budget: while your draw weight is going up"
     ],
     [
-     "Mybo Synergy 360"
+     "Mybo Arca carbon/foam",
+     "Budget: while your draw weight is going up"
     ],
     [
-     "Fivics Vellator V3"
-    ],
-    [
-     "Hoyt RCRV Podium Grand Prix"
+     "Kinetic Astonix carbon/foam",
+     "Budget: while your draw weight is going up"
     ]
-   ],
-   "caption": "Brands in the order I recommend them: Uukha, WNS, then Kinetic. Other options follow; I have little experience with Fivics and Hoyt"
+   ]
   },
   "mid-upgrades": {
    "caption": "Upgrades in the order most archers need them",
@@ -138,7 +149,7 @@
     ],
     [
      "Limbs",
-     "Each time your draw weight goes up",
+     "When you're ready to step up in draw weight",
      "Budget limbs at your new weight"
     ],
     [
@@ -148,7 +159,7 @@
     ],
     [
      "Riser",
-     "Only if you started on a budget riser",
+     "Only if you started on an entry riser",
      "See Risers below"
     ]
    ]
@@ -174,15 +185,15 @@
     ],
     [
      "Kinetic Novius V2 25\"",
-     "Budget alternative"
+     "Entry-level alternative"
     ],
     [
      "Kinetic Valenz V2 25\"",
-     "Budget alternative"
+     "Entry-level alternative"
     ],
     [
      "Kinetic Evolium 25\"",
-     "Budget alternative"
+     "Entry-level alternative"
     ],
     [
      "Kinetic Vygo V2 25\"",
