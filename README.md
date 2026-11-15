@@ -44,4 +44,6 @@ Run this by hand now and then. It checks the shop and marketplace links and is n
 
 ## Licence and disclaimer
 
+The guide's text is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the code is under the MIT License. See [LICENSE](LICENSE).
+
 Independent guide: no affiliate links or sponsorship.
