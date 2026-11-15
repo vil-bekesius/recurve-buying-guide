@@ -41,7 +41,7 @@ SHARE_IMAGE = "share.png"  # picture shown when a link to the site is shared
 # The order is the reading order used by the previous/next links.
 PAGES = [
     ("index", "Home", SITE,
-     "My opinionated guide to buying Olympic recurve archery kit in the UK: "
+     "My opinionated guide to buying kit for Olympic recurve target archery in the UK: "
      "your first bow, the upgrades worth making, and the shops I use."),
     ("before-you-buy", "Before you buy", "Before you buy",
      "When to buy your first recurve bow, how to prepare for a shop fitting, "
