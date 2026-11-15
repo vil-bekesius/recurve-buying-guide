@@ -61,7 +61,7 @@ REDIRECTS = {
     "limbs-arrows": "intermediate.html#stepping-up",
 }
 
-TOC_MIN_SECTIONS = 4  # pages with fewer <h2> sections get no "On this page" list
+TOC_MIN_WORDS = 500  # shorter pages get no "On this page" list
 
 TABLE_TAG = re.compile(r"\{\{table:([\w-]+)\}\}")
 H2 = re.compile(r'<h2(?: id="([^"]+)")?>(.*?)</h2>', re.S)
@@ -165,7 +165,7 @@ def add_toc(body, name, problems):
         return f'<h2 id="{anchor}">{text}</h2>'
 
     body = H2.sub(heading, body)
-    if len(sections) < TOC_MIN_SECTIONS:
+    if len(strip_tags(body).split()) < TOC_MIN_WORDS or len(sections) < 2:
         return body
     links = "".join(f'<li><a href="#{anchor}">{label}</a></li>' for anchor, label in sections)
     toc = f'<details class="toc"><summary>On this page</summary><ol>{links}</ol></details>'
